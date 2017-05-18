@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "express-generator": "^4.15.0",
-    "gulp": "^3.6.2",
+    "gulp": "^3.9.1",
     "gulp-shell": "^0.4.2",
     "gulp-tsc": "^0.10.1",
     "gulp-tslint": "^2.0.0",
