@@ -1,0 +1,10 @@
+{
+    "name": "greouxlocationV4",
+    "version": "0.0.1-SNAPSHOT",
+    "author": "",
+    "main": "index.html",
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^2.3.2"
+    }
+}
