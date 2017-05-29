@@ -14,6 +14,11 @@ echo executing :clone
 git -c http.sslVerify=false clone https://github.com/zg2pro/greouxlocation.git
 exit /b
 
+:refresh
+echo executing :refresh
+git -c http.sslVerify=false pull --rebase
+exit /b
+
 :commit
 echo executing :commit
 git commit -m "from Montreuil"
