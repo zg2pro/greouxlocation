@@ -7,7 +7,6 @@ to start an angular project:
 npm install -g yo
 npm install -g generator-typescript
 yo typescript
-
 (typescript comes with gulp)
 
 -install the Netbeans plugin for Typescript and node (use Netbeans "All" version containing the HTML/JS features)
