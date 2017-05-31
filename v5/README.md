@@ -22,13 +22,10 @@ yo typescript
 
 -run "npm run-script build" to build the project, if you're not using src as you're site root, you have to fix pathes for css and js in index.html and systemjs.config.js
 
--now we want to build to a separate folder "dist"...,
-    @home, npm install following packages:
-        "gulp": "^3.9.1",
-        "gulp-shell": "^0.4.2",
-        "gulp-tsc": "^0.10.1",
-        "gulp-tslint": "^2.0.0",
-        "mocha": "*",
-        "reflect-metadata": "0.1.2",
-        "run-sequence": "^1.1.1",
-        "del": "^2.1.0"
+- now we want to compile the project in a separate directory, for this, we must use some other devDependencies and add the following scripts to our package.json :
+"clean": "rimraf target",
+"html": "copyfiles -f src/app/index.html src/app/**/*.css src/app/**/*.js src/app/**/*.ico target/app",
+"templates": "copyfiles -f src/app/templates/*.html target/app/templates",
+"compile": "npm run clean && npm run html && npm run templates && npm run build"
+
+

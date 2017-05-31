@@ -2,11 +2,19 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="php">
-            <file>file:/C:/workspace/php/greouxlocation/v5/package.json</file>
-        </group>
         <group>
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/karma.conf.js</file>
+        </group>
+        <group name="php">
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/systemjs.config.js</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/package.json</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/home.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/README.md</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/main.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.component.spec.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/target/app/main.js</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/tsconfig.json</file>
         </group>
     </open-files>
 </project-private>
