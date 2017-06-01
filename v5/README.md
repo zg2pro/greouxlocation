@@ -21,10 +21,9 @@ yo typescript
 
 -run "npm run-script build" to build the project, if you're not using src as you're site root, you have to fix pathes for css and js in index.html and systemjs.config.js
 
-- now we want to compile the project in a separate directory, for this, we must use some other devDependencies and add the following scripts to our package.json :
-"clean": "rimraf target",
-"html": "copyfiles -f src/app/index.html src/app/**/*.css src/app/**/*.js src/app/**/*.ico target/app",
-"templates": "copyfiles -f src/app/templates/*.html target/app/templates",
-"compile": "npm run clean && npm run html && npm run templates && npm run build"
+- we want to compile the project in a separate directory, for this, we must use some other devDependencies and add the scripts to our package.json
+- also we want to pack a distrib version with application dependencies bundled, css and js minified, thus we add more scripts in the package.json
 
+- in Netbeans (project properties) define "target/app" as the site root and "src" as the source folder, 
+and now you should have your ts fully recognized with auto-completion of code and all...
 

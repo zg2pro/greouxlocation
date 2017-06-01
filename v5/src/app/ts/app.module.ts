@@ -1,11 +1,12 @@
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent }  from './app.component';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {RouterModule} from '@angular/router';
+import {AppComponent} from './app.component';
+import {NavbarModule} from './navbar/navbar.module';
 
 @NgModule({
-  imports:      [ BrowserModule ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+    imports: [BrowserModule, NavbarModule, RouterModule.forRoot([])],
+    declarations: [AppComponent],
+    bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
