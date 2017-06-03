@@ -1,32 +1,38 @@
-import { Component, OnInit } from '@angular/core';
-import { ROUTES } from './navbar-routes.config';
-import { MenuType } from './navbar.metadata';
+import {Component, OnInit} from '@angular/core';
+import {ROUTES} from './navbar-routes.config';
+import {MenuType} from './navbar.metadata';
 
 @Component({
-  //moduleId: module.id,
-  selector: 'navbar',
-  templateUrl: 'templates/navbar.component.html',
-  styleUrls: [ 'navbar.component.css' ]
+    //moduleId: module.id,
+    selector: 'navbar',
+    templateUrl: 'templates/navbar.component.html',
+    styleUrls: ['navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  public menuItems: any[];
-  public brandMenu: any;
-  isCollapsed = true;
+    public menuItems: any[];
+    public brandMenu: any;
+    isCollapsed = true;
 
-  constructor() {}
+    fullImagePath: string;
 
-  ngOnInit() {
-    this.menuItems = ROUTES.filter(menuItem => menuItem.menuType !== MenuType.BRAND);
-    this.brandMenu = ROUTES.filter(menuItem => menuItem.menuType === MenuType.BRAND)[0];
-  }
+    constructor() {
+        this.fullImagePath = 'resources/img/ind_sight_of_greoux.jpg';
+    }
 
-  public get menuIcon(): string {
-    return this.isCollapsed ? '☰' : '✖';
-  }
+    ngOnInit() {
+        this.menuItems = ROUTES.filter(menuItem => menuItem.menuType !== MenuType.BRAND);
+        this.brandMenu = ROUTES.filter(menuItem => menuItem.menuType === MenuType.BRAND)[0];
+    }
 
-  public getMenuItemClasses(menuItem: any) {
-    return {
-      'pull-xs-right': this.isCollapsed && menuItem.menuType === MenuType.RIGHT
-    };
-  }
+//    public get menuIcon(): string {
+//        return this.isCollapsed ? '☰' : '✖';
+//    }
+
+    public getMenuItemClasses(menuItem: any) {
+        return {
+            'pull-xs-right': this.isCollapsed && menuItem.menuType === MenuType.RIGHT
+        };
+    }
+
+
 }

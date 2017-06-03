@@ -1,0 +1,21 @@
+.active {
+    color: #fff;
+}
+.navbar-toggler {
+    border: solid 1px silver;
+    border-radius: 2px;
+    color: #eee;
+}
+.navbar-brand > img {
+    margin: -15px; 
+    height: 70px;
+}
+.container-fluid {
+    height: 70px;
+}
+div#bs-example-navbar-collapse-1 {
+    margin-left: 65px;
+}
+.nav-item > a {
+    height: 70px;
+}
