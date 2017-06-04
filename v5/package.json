@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
-  "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "name": "greouxlocation",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "for renting an apartment in southern France",
   "scripts": {
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",
@@ -30,8 +30,8 @@
     "package": "npm run compile && npm run package:html && npm run package:dependencies && npm run package:templates && npm run package:ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "author": "zg2pro",
+  "license": "free",
   "dependencies": {
     "@angular/common": "~4.0.0",
     "@angular/compiler": "~4.0.0",
@@ -44,8 +44,6 @@
     "angular-in-memory-web-api": "~0.3.0",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
-    "ie-shim": "^0.1.0",
-    "reflect-metadata": "^0.1.10",
     "rxjs": "5.0.1",
     "systemjs": "0.19.40",
     "zone.js": "^0.8.4"

@@ -5,5 +5,9 @@ import {Component} from '@angular/core';
     templateUrl: 'templates/home.html'
 })
 export class AppComponent {
-    name = 'Angular2';
+    imagePacaPath: string;
+    constructor() {
+        this.imagePacaPath = 'resources/img/ind_paca.png';
+    }
+    
 }

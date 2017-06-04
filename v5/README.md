@@ -27,3 +27,6 @@ yo typescript
 - in Netbeans (project properties) define "target/app" as the site root and "src" as the source folder, 
 and now you should have your ts fully recognized with auto-completion of code and all...
 
+- in your test browser, open F12, and go to settings, then disable cache, with cache you would not be able to see your changes between deployments.
+
+

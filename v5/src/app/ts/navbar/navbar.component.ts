@@ -24,10 +24,6 @@ export class NavbarComponent implements OnInit {
         this.brandMenu = ROUTES.filter(menuItem => menuItem.menuType === MenuType.BRAND)[0];
     }
 
-//    public get menuIcon(): string {
-//        return this.isCollapsed ? '☰' : '✖';
-//    }
-
     public getMenuItemClasses(menuItem: any) {
         return {
             'pull-xs-right': this.isCollapsed && menuItem.menuType === MenuType.RIGHT
