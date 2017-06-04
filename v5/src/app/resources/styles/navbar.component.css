@@ -10,12 +10,27 @@
     margin: -15px; 
     height: 70px;
 }
-.container-fluid {
+nav > .container-fluid {
     height: 70px;
+    background-color: orange;
 }
 div#bs-example-navbar-collapse-1 {
     margin-left: 65px;
 }
 .nav-item > a {
     height: 70px;
+}
+.nav-item > a.active {
+    background-color: lightsalmon;
+}
+.nav-item > a.navbar-brand,
+.nav-item > a.navbar-brand:focus,
+.nav-item > a.navbar-brand:hover {
+    background-color: darkorange; /* !important;*/
+}
+nav > .container-fluid a {
+    color: #754C78 !important;
+}
+ul.navbar-nav {
+    font-weight: bold;
 }

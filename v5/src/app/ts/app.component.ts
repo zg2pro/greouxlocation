@@ -2,7 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'templates/home.html'
+    templateUrl: 'templates/home.html',
+    styleUrls: ['home.css']
 })
 export class AppComponent {
     imagePacaPath: string;
