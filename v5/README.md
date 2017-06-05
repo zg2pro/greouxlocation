@@ -29,4 +29,6 @@ and now you should have your ts fully recognized with auto-completion of code an
 
 - in your test browser, open F12, and go to settings, then disable cache, with cache you would not be able to see your changes between deployments.
 
+- use browserify to load all js files required by angular (concatenates the framework in one file)
+- use uglify to minify the bundled file
 
