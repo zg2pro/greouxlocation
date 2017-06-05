@@ -32,3 +32,24 @@ and now you should have your ts fully recognized with auto-completion of code an
 - use browserify to load all js files required by angular (concatenates the framework in one file)
 - use uglify to minify the bundled file
 
+
+
+
+Remains to be done:
+------------------
+-navbar going to pages
+-i18n
+-footer
+-partner pages
+-sass less ?
+-remove unused files
+-integrate gitlab ? docker ?
+-pack to production keep old version in separate folder
+- screens :
+1- home with carousel
+2- fares (reservation online? calendar?)
+3- management by google spreadsheet
+4- photos by angularui gallery
+5- contact
+6- location
+
