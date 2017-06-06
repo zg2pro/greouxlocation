@@ -25,7 +25,7 @@ div#bs-example-navbar-collapse-1 {
 }
 .nav-item > a.navbar-brand,
 .nav-item > a.navbar-brand:focus,
-.nav-item > a.navbar-brand:hover {
+.nav-item > a:hover {
     background-color: darkorange; /* !important;*/
 }
 nav > .container-fluid a {

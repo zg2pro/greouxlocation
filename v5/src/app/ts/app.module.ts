@@ -1,13 +1,17 @@
-import {NgModule} from '@angular/core';
+import {NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {RouterModule} from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {AppComponent} from './app.component';
+//import { SlickModule } from 'angular-slick';
 import {NavbarModule} from './navbar/navbar.module';
+import {HomeModule} from './home/home.module';
+import {GreouxModule} from './greoux/greoux.module';
+import {AppComponent} from './app.component';
 
 @NgModule({
-    imports: [BrowserModule, NavbarModule, RouterModule.forRoot([]), NgbModule.forRoot()],
+    imports: [BrowserModule, NavbarModule, HomeModule, GreouxModule, RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule {}

@@ -14,7 +14,8 @@
         'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
         'traceur': 'npm:traceur/bin/traceur.js',
         '@ng-bootstrap': 'npm:@ng-bootstrap',
-        '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap'
+        '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap',
+       // 'angular-slick': 'npm:angular-slick'
     };
 
     var packages = {
@@ -30,13 +31,17 @@
             defaultExtension: 'js'
         },
         'angular2-in-memory-web-api': {
-            //main: 'index.js',
             defaultExtension: 'js'
         },
         '@ng-bootstrap/ng-bootstrap': {
             main: 'index.js',
             defaultExtension: 'js'
         }
+        /*,
+        'angular-slick': {
+            main: 'index.js',
+            defaultExtension: 'js'
+        }*/
     };
 
 
