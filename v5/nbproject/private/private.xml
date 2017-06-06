@@ -6,17 +6,27 @@
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/README.md</file>
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/karma.conf.js</file>
         </group>
-        <group name="php">
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/home.html</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/main.ts</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/README.md</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/package.json</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.component.spec.ts</file>
-        </group>
         <group name="workspace">
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/package.json</file>
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/index.html</file>
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/systemjs.config.js</file>
+        </group>
+        <group name="php">
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/main.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/index.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/app.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/systemjs.config.js</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/home.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/home/home.module.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/README.md</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.module.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/package.json</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.component.spec.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar.metadata.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/resources/styles/navbar.component.css</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/greoux/greoux.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar.module.ts</file>
         </group>
     </open-files>
 </project-private>
