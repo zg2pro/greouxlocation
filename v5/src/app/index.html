@@ -11,6 +11,13 @@
         <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="resources/styles/styles.css">
         <!-- Polyfill(s) for older browsers -->
+        <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+        <script>
+            var myapp = angular.module('my-app', []);
+        </script>
+        <script src="../../node_modules/slick-carousel/slick/slick.min.js"></script>
+        <script src="../../node_modules/angular-slick/dist/slick.min.js"></script>
         <script src="../../node_modules/ie-shim/dist/browser.min.js"></script>
         <script src="../../node_modules/core-js/client/shim.min.js"></script>
         <script src="../../node_modules/zone.js/dist/zone.js"></script>
@@ -25,10 +32,9 @@
         </script>
     </head>
 
-    <body>
-        <!-- trying to use https://github.com/sirajc/angular2-bs4-navbar/tree/master/src/app/navbar -->
-    <my-app>
+    <body ng-app="my-app" ng-strict-di>
+    <my-app2>
         Website loading ...
-    </my-app>
+    </my-app2>
 </body>
 </html>

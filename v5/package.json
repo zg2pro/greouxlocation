@@ -49,6 +49,7 @@
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "ie-shim": "^0.1.0",
+    "jquery": "^3.2.1",
     "reflect-metadata": "^0.1.10",
     "rxjs": "5.0.1",
     "slick-carousel": "^1.6.0",

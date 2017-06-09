@@ -12,10 +12,12 @@
         // other libraries
         'rxjs': 'npm:rxjs',
         'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+        '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.min.js',
+        '@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.min.js',
         'traceur': 'npm:traceur/bin/traceur.js',
         '@ng-bootstrap': 'npm:@ng-bootstrap',
         '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap',
-       // 'angular-slick': 'npm:angular-slick'
+        'angular-slick': 'npm:angular-slick'
     };
 
     var packages = {
@@ -37,11 +39,11 @@
             main: 'index.js',
             defaultExtension: 'js'
         }
-        /*,
+        ,
         'angular-slick': {
             main: 'index.js',
             defaultExtension: 'js'
-        }*/
+        }
     };
 
 
@@ -55,7 +57,6 @@
         'platform-browser-dynamic',
         'router',
         'router-deprecated',
-        'upgrade',
     ];
 
     var ngBootstrapPackageNames = [
