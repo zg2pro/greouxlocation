@@ -17,10 +17,4 @@ import {AppComponent} from './app.component';
     bootstrap: [AppComponent]
 })
 export class AppModule {
-    //    ngDoBootstrap(appRef: ApplicationRef): void {
-    //        appRef.bootstrap(AppComponent);
-    //    }
-    //    ngDoBootstrap() {
-    //        console.log("appModule: ngDoBootstrap");
-    //    }
 }

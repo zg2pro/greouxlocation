@@ -6,10 +6,5 @@ import {Component} from '@angular/core';
     styleUrls: ['app.css']
 })
 export class AppComponent {
-    imagePacaPath: string;
-    constructor() {
-        console.log("appComponent");
-        this.imagePacaPath = 'resources/img/ind_paca.png';
-    }
     
 }

@@ -1,6 +1,3 @@
-.active {
-    color: #fff;
-}
 .navbar-toggler {
     border: solid 1px silver;
     border-radius: 2px;
@@ -18,12 +15,14 @@ nav {
     height: 70px;
 }
 .nav-item > a.active {
+    color: #754C78;
     background-color: lightsalmon;
 }
 .nav-item > a.navbar-brand,
 .nav-item > a.navbar-brand:focus,
 .nav-item > a:hover {
     background-color: darkorange;
+    color: #754C78;
 }
 .nav-item > a.navbar-brand  {
     padding-top: 9px;

@@ -1,0 +1,7 @@
+table {
+    border-style: inset;
+    margin-top: 100px;
+}
+table tr td:first-child {
+    padding-right: 10px;
+}
