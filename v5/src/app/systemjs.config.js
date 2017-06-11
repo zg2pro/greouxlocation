@@ -12,12 +12,12 @@
         // other libraries
         'rxjs': 'npm:rxjs',
         'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-        '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.min.js',
-        '@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.min.js',
+//        '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.min.js',
+//        '@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.min.js',
         'traceur': 'npm:traceur/bin/traceur.js',
         '@ng-bootstrap': 'npm:@ng-bootstrap',
         '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap',
-        'angular-slick': 'npm:angular-slick'
+//        'angular-slick': 'npm:angular-slick'
     };
 
     var packages = {
@@ -39,11 +39,11 @@
             main: 'index.js',
             defaultExtension: 'js'
         }
-        ,
-        'angular-slick': {
-            main: 'index.js',
-            defaultExtension: 'js'
-        }
+//        ,
+//        'angular-slick': {
+//            main: 'index.js',
+//            defaultExtension: 'js'
+//        }
     };
 
 
@@ -106,6 +106,7 @@
     ngBootstrapPackageNames.forEach(ngBootstrapPackIndex);
 
     var config = {
+        
         paths: {
             // paths serve as alias
             'npm:': '../../node_modules/'
@@ -116,10 +117,6 @@
         packages: packages
     };
 
-//https://stackoverflow.com/questions/38894549/how-can-i-add-bootstrap-to-angular2-via-system-js
-//https://ng-bootstrap.github.io/#/getting-started
     System.config(config);
-
-
 
 })(this);

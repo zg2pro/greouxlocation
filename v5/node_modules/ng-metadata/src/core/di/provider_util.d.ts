@@ -1,0 +1,25 @@
+import { Type } from '../../facade/type';
+import { DirectiveMetadata, ComponentMetadata, NgModuleMetadata } from '../directives/metadata_directives';
+import { PipeMetadata } from '../pipes/metadata';
+import { Provider } from './provider';
+import { OpaqueToken } from './opaque_token';
+import { InjectableMetadata, InjectMetadata } from './metadata';
+export declare type ProviderLiteral = {
+    provide: any;
+    useClass?: Type;
+    useValue?: any;
+    useFactory?: Function;
+    useExisting?: any;
+    deps?: Object[];
+    multi?: boolean;
+};
+export declare function isProviderLiteral(obj: any): obj is ProviderLiteral;
+export declare function createProvider(obj: ProviderLiteral): Provider;
+export declare function isOpaqueToken(obj: any): obj is OpaqueToken;
+export declare function isDirectiveLike(annotation: any): annotation is DirectiveMetadata | ComponentMetadata;
+export declare function isDirective(annotation: any): annotation is DirectiveMetadata;
+export declare function isComponent(annotation: any): annotation is ComponentMetadata;
+export declare function isService(annotation: any): annotation is InjectableMetadata;
+export declare function isPipe(annotation: any): annotation is PipeMetadata;
+export declare function isInjectMetadata(injectMeta: any): injectMeta is InjectMetadata;
+export declare function isNgModule(annotation: any): annotation is NgModuleMetadata;

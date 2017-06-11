@@ -1,9 +1,15 @@
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './ts/app.module';
-import { UpgradeModule } from '@angular/upgrade/static';
+import {AppModule} from './ts/app.module';
+//import {AppComponent} from './ts/app.component';
+//import {UpgradeModule} from '@angular/upgrade/static';
 
-platformBrowserDynamic().bootstrapModule(AppModule).then(platformRef => {
-  const upgrade = platformRef.injector.get(UpgradeModule) as UpgradeModule;
-  upgrade.bootstrap(document.body, ['my-app'], {strictDi: true});
-});
+
+platformBrowserDynamic().bootstrapModule(AppModule);
+
+//platformBrowserDynamic().bootstrapModule(AppModule).then(platformRef => {
+//    console.log("AppModule:" + AppModule.name);
+//    const upgrade = platformRef.injector.get(UpgradeModule) as UpgradeModule;
+//    console.log("upgrading angular-slick");
+//    upgrade.bootstrap(document.body, ["slick"], {strictDi: true});
+//});

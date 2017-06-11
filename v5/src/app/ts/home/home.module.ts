@@ -1,16 +1,15 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { Route, RouterModule } from '@angular/router';
-import {SlickDirective} from './slick/slick.directive';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {Route, RouterModule} from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbdCarouselConfig} from './bootstrap/carousel.component';
 
-import { MODULE_COMPONENTS, MODULE_ROUTES } from './home.routes';
+import {MODULE_COMPONENTS, MODULE_ROUTES} from './home.routes';
 
 @NgModule({
-  imports: [ NgbModule, CommonModule, RouterModule.forChild(MODULE_ROUTES) ],
-  declarations: [ MODULE_COMPONENTS, SlickDirective ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    imports: [NgbModule, CommonModule, RouterModule.forChild(MODULE_ROUTES)],
+    declarations: [MODULE_COMPONENTS, NgbdCarouselConfig]
 })
 export class HomeModule {
-    
+
 }

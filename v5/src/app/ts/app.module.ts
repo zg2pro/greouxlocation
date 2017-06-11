@@ -1,7 +1,8 @@
-import {NgModule, CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
+import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {JsonpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
-import {UpgradeModule} from '@angular/upgrade/static';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NavbarModule} from './navbar/navbar.module';
 import {HomeModule} from './home/home.module';
@@ -9,11 +10,17 @@ import {GreouxModule} from './greoux/greoux.module';
 import {AppComponent} from './app.component';
 
 @NgModule({
-    imports: [BrowserModule, UpgradeModule, NavbarModule, HomeModule, GreouxModule, RouterModule.forRoot([]), NgbModule.forRoot()],
+    imports: [BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule,
+        NavbarModule, HomeModule, GreouxModule, 
+        RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],
-    entryComponents : [AppComponent],
-    schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    bootstrap: [AppComponent]
 })
 export class AppModule {
-    ngDoBootstrap(){}
+    //    ngDoBootstrap(appRef: ApplicationRef): void {
+    //        appRef.bootstrap(AppComponent);
+    //    }
+    //    ngDoBootstrap() {
+    //        console.log("appModule: ngDoBootstrap");
+    //    }
 }
