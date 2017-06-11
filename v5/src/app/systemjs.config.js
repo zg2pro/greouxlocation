@@ -17,7 +17,6 @@
         'traceur': 'npm:traceur/bin/traceur.js',
         '@ng-bootstrap': 'npm:@ng-bootstrap',
         '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap',
-//        'angular-slick': 'npm:angular-slick'
     };
 
     var packages = {
@@ -39,11 +38,6 @@
             main: 'index.js',
             defaultExtension: 'js'
         }
-//        ,
-//        'angular-slick': {
-//            main: 'index.js',
-//            defaultExtension: 'js'
-//        }
     };
 
 

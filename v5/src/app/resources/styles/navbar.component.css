@@ -10,12 +10,9 @@
     margin: -15px; 
     height: 70px;
 }
-nav > .container-fluid {
+nav {
     height: 70px;
     background-color: orange;
-}
-div#bs-example-navbar-collapse-1 {
-    margin-left: 65px;
 }
 .nav-item > a {
     height: 70px;
@@ -26,10 +23,19 @@ div#bs-example-navbar-collapse-1 {
 .nav-item > a.navbar-brand,
 .nav-item > a.navbar-brand:focus,
 .nav-item > a:hover {
-    background-color: darkorange; /* !important;*/
+    background-color: darkorange;
 }
-nav > .container-fluid a {
-    color: #754C78 !important;
+.nav-item > a.navbar-brand  {
+    padding-top: 9px;
+}
+.nav-item > a  {
+    color: #754C78;
+    padding-top: 11px;
+}
+nav a {
+    color: #754C78;   
+    padding-left: 10px;
+    padding-right: 10px; 
 }
 ul.navbar-nav {
     font-weight: bold;
