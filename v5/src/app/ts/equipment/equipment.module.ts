@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { Route, RouterModule } from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
-import { MODULE_COMPONENTS, MODULE_ROUTES } from './contact.routes';
+import { MODULE_COMPONENTS, MODULE_ROUTES } from './equipment.routes';
 
 @NgModule({
   imports: [ NgbModule, CommonModule, RouterModule.forChild(MODULE_ROUTES) ],
   declarations: [ MODULE_COMPONENTS ]
 })
-export class ContactModule {}
+export class EquipmentModule {}

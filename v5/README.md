@@ -37,19 +37,16 @@ and now you should have your ts fully recognized with auto-completion of code an
 
 Remains to be done:
 ------------------
--navbar going to pages
 -i18n
--footer
+-footer = contact
 -partner pages
 -sass less ?
 -remove unused files
--integrate gitlab ? docker ?
 -pack to production keep old version in separate folder
 - screens :
-1- home with carousel
-2- fares (reservation online? calendar?)
+1- home with carousel + add equipment (micro-wave, shower with ramp, supermarket ? wifi?)
+2- fares (reservation online? check availability. calendar?)
 3- management by google spreadsheet
 4- photos by angularui gallery
-5- contact
-6- location
+5- equipement, conditions
 

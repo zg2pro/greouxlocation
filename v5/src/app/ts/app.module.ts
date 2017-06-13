@@ -9,12 +9,12 @@ import {HomeModule} from './home/home.module';
 import {GreouxModule} from './greoux/greoux.module';
 import {VisitModule} from './visit/visit.module';
 import {FaresModule} from './fares/fares.module';
-import {ContactModule} from './contact/contact.module';
+import {EquipmentModule} from './equipment/equipment.module';
 import {AppComponent} from './app.component';
 
 @NgModule({
     imports: [BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule,
-        NavbarModule, HomeModule, GreouxModule, VisitModule, FaresModule, ContactModule,
+        NavbarModule, HomeModule, GreouxModule, VisitModule, FaresModule, EquipmentModule,
         RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],
     bootstrap: [AppComponent]
