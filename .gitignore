@@ -4,3 +4,4 @@
 /v5/dist
 /v5/target
 /v5/src/app/resources/security
+/dbPassword.php

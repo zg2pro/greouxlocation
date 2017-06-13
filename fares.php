@@ -64,7 +64,9 @@ Tarifs :
 <table id="faresTab" border="2">
 <tbody>
 <?php
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+require_once 'dbPassword.php';
+
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 $categories = array( "Basse Saison"
                 , "Moyenne Saison <br/> (Avril / Mai / Juin)"

@@ -1,6 +1,8 @@
 <?php
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+require_once 'dbPassword.php';
+
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 
 if($mode == cancel){

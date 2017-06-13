@@ -41,7 +41,9 @@
       <td class="category"><img src="contact_telephone.png"/></td>
       <td class="contacts"><u>Par t&eacute;l&eacute;phone :</u><br/>
 	  <?php
-	  $dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+	  require_once 'dbPassword.php';
+
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
 		or die('Connexion impossible : ' . pg_last_error());
 		$query = "SELECT * FROM contacts WHERE type = 'TELEPHONE'";
 		$result = pg_query($query) or die('Échec requête : ' . pg_last_error());

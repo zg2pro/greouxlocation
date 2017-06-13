@@ -9,6 +9,8 @@
 
 <?php
 
+	require_once 'dbPassword.php';
+
 //calcule le jour de la semaine pour premier jour.
 $firstDay=date("w", mktime(0,0,0,$month,1,$year));
 if ($firstDay==0) {$firstDay=7;}
@@ -39,9 +41,9 @@ function compute_nb_of_days(){
 	}
 }//compute
 
-
 function check_day($current_date) {
-	$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 $query = "SELECT count(*) as nb FROM bookings WHERE $current_date >= check_in AND $current_date <= check_out";
 $result = pg_query($query) or die('Échec requête : ' . pg_last_error());

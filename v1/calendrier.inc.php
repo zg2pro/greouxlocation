@@ -60,7 +60,9 @@ $timestamp = mktime (0, 0, 0, getMonth($periode), 1, $annee);
 $premier_jour_mois = date("w",$timestamp);
 
 // on se connecte à pgSQL
-$dbconn = pg_connect("host=sql.free.fr port=5432 dbname=greouxlocation user=greouxlocation password=uqbdzhp");
+require_once 'dbPassword.php';
+
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
 
 /*synthese des chaines de car pour la requete */
 $fin = $annee .'-'.getMonth($periode).'-'.$nb_jour;

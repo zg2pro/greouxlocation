@@ -21,8 +21,9 @@ header("Cache-Control: no-cache, must-revalidate");
 <br/>
 
 <?php
+require_once 'dbPassword.php';
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 $query = 'SELECT * FROM advertisements';
 $result = pg_query($query) or die('Échec requête : ' . pg_last_error());
