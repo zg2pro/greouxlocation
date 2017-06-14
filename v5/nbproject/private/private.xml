@@ -29,15 +29,15 @@
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/templates/home/carousel.component.html</file>
         </group>
         <group name="php">
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/equipment.component.html</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/package.json</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/greoux/greoux.component.ts</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/footer/footer.component.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar-routes.config.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/systemjs.config.js</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/footer.component.html</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/footer/footer.module.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/foot.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/foot/foot.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/greoux/greoux.component.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/index.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/package.json</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.module.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/equipment.component.html</file>
         </group>
     </open-files>
 </project-private>
