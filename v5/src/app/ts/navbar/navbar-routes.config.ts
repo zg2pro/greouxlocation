@@ -5,5 +5,5 @@ export const ROUTES: RouteInfo[] = [
   { path: 'greoux', title: 'Greoux', menuType: MenuType.LEFT },
   { path: 'visit', title: 'Visit', menuType: MenuType.LEFT },
   { path: 'fares', title: 'Fares', menuType: MenuType.LEFT },
-  { path: 'equipment', title: 'Equipement', menuType: MenuType.LEFT }
+  { path: 'equipment', title: 'Equipment', menuType: MenuType.LEFT }
 ];

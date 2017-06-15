@@ -29,15 +29,31 @@
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/templates/home/carousel.component.html</file>
         </group>
         <group name="php">
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar-routes.config.ts</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/systemjs.config.js</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/visit.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/equipment.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/home/home.module.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/fares/fares.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/resources/styles/foot.component.css</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/home/home.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/greoux/greoux.routes.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar.metadata.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/foot.component.html</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/foot/foot.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/foot/foot.module.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/greoux/greoux.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/abstract.content.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.component.spec.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/app.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/greoux.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/foot/foot.component.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/index.html</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/package.json</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.module.ts</file>
-            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/equipment.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/home/bootstrap/carousel.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/fares.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/systemjs.config.js</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/equipment/equipment.component.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/navbar/navbar.module.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/visit/visit.component.ts</file>
         </group>
     </open-files>
 </project-private>
