@@ -3,17 +3,17 @@
 require_once '../../../php_lib/google-api-php-client-2.1.3_PHP54/vendor/autoload.php';
 
 define('APPLICATION_NAME', 'Google Sheets API PHP Quickstart');
-define('CREDENTIALS_PATH', '~/.credentials/sheets.googleapis.com-php-quickstart.json');
-define('CLIENT_SECRET_PATH', __DIR__ . '/client_secret.json');
+define('CLIENT_SECRET_PATH', './../resources/security/oauth.client.ids.json');
+define('CREDENTIALS_PATH', './../resources/security/service.account.key.json');
 // If modifying these scopes, delete your previously saved credentials
 // at ~/.credentials/sheets.googleapis.com-php-quickstart.json
 define('SCOPES', implode(' ', array(
   Google_Service_Sheets::SPREADSHEETS_READONLY)
 ));
 
-if (php_sapi_name() != 'cli') {
-  throw new Exception('This application must be run on the command line.');
-}
+//if (php_sapi_name() != 'cli') {
+//  throw new Exception('This application must be run on the command line.');
+//}
 
 /**
  * Returns an authorized API client.
@@ -22,6 +22,7 @@ if (php_sapi_name() != 'cli') {
 function getClient() {
   $client = new Google_Client();
   $client->setApplicationName(APPLICATION_NAME);
+  
   $client->setScopes(SCOPES);
   $client->setAuthConfig(CLIENT_SECRET_PATH);
   $client->setAccessType('offline');
