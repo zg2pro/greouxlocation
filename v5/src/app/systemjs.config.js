@@ -17,6 +17,8 @@
         'traceur': 'npm:traceur/bin/traceur.js',
         '@ng-bootstrap': 'npm:@ng-bootstrap',
         '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap',
+        'angular2-image-gallery': 'npm:angular2-image-gallery',
+        '@angular/platform-browser/animations': 'npm:@angular/platform-browser/bundles/platform-browser-animations.umd.js',  
     };
 
     var packages = {
@@ -35,6 +37,10 @@
             defaultExtension: 'js'
         },
         '@ng-bootstrap/ng-bootstrap': {
+            main: 'index.js',
+            defaultExtension: 'js'
+        },
+        'angular2-image-gallery': {
             main: 'index.js',
             defaultExtension: 'js'
         }
