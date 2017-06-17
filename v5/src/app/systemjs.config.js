@@ -18,7 +18,10 @@
         '@ng-bootstrap': 'npm:@ng-bootstrap',
         '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap',
         'angular2-image-gallery': 'npm:angular2-image-gallery',
+        'core-js': 'npm:core-js',
         '@angular/platform-browser/animations': 'npm:@angular/platform-browser/bundles/platform-browser-animations.umd.js',  
+        'hammerjs': 'npm:hammerjs/hammer.min.js',
+        'web-animations-js': 'npm:web-animations-js/web-animations.min.js'
     };
 
     var packages = {
@@ -31,6 +34,9 @@
             }
         },
         rxjs: {
+            defaultExtension: 'js'
+        },
+        'core-js': {
             defaultExtension: 'js'
         },
         'angular2-in-memory-web-api': {
