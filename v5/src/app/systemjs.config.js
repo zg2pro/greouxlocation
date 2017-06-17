@@ -12,16 +12,16 @@
         // other libraries
         'rxjs': 'npm:rxjs',
         'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-//        '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.min.js',
-//        '@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.min.js',
         'traceur': 'npm:traceur/bin/traceur.js',
         '@ng-bootstrap': 'npm:@ng-bootstrap',
         '@ng-bootstrap/ng-bootstrap': 'npm:@ng-bootstrap/ng-bootstrap',
-        'angular2-image-gallery': 'npm:angular2-image-gallery',
         'core-js': 'npm:core-js',
         '@angular/platform-browser/animations': 'npm:@angular/platform-browser/bundles/platform-browser-animations.umd.js',  
         'hammerjs': 'npm:hammerjs/hammer.min.js',
-        'web-animations-js': 'npm:web-animations-js/web-animations.min.js'
+        'ng2-dragula': 'npm:ng2-dragula/bundles/ng2-dragula.umd.min.js',
+        '@angular/material': 'npm:ng2-image-gallery/node_modules/@angular/material/bundles/material.umd.js',
+        'ng2-image-gallery': 'npm:ng2-image-gallery/dist/bundles/ng2-image-gallery.umd.min.js',
+        'list-files-in-dir': 'npm:list-files-in-dir/lib/index.js'
     };
 
     var packages = {
@@ -45,15 +45,12 @@
         '@ng-bootstrap/ng-bootstrap': {
             main: 'index.js',
             defaultExtension: 'js'
-        },
-        'angular2-image-gallery': {
-            main: 'index.js',
-            defaultExtension: 'js'
         }
     };
 
 
     var ngPackageNames = [
+        'animations',
         'common',
         'compiler',
         'core',
