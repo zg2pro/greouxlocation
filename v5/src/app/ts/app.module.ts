@@ -4,6 +4,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {JsonpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {Configuration} from './app.rest.configuration'
 import {NavbarModule} from './navbar/navbar.module';
 import {FootModule} from './foot/foot.module';
 import {HomeModule} from './home/home.module';
@@ -15,10 +16,11 @@ import {AppComponent} from './app.component';
 
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule, 
+    imports: [BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule,  
         NavbarModule, FootModule, HomeModule, GreouxModule, VisitModule, FaresModule, EquipmentModule,
         RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],
+    providers: [Configuration],
     bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -10,7 +10,7 @@ import {Fare} from './fares.metadata';
     styleUrls: ['fares.component.css']
 })
 export class FaresComponent extends AbstractContentComponent implements OnInit {
-    public myItems: Fare[];
+    public fares: Fare[];
 
     constructor(private _dataService: FaresService) {
         super();
@@ -23,8 +23,12 @@ export class FaresComponent extends AbstractContentComponent implements OnInit {
     private getAllItems(): void {
         this._dataService
             .getFares()
-            .subscribe((data: Fare[]) => this.myItems = data,
-            error => console.log(error),
-            () => console.log('Get all Items complete'));
+            .subscribe(
+            (data: Fare[]) =>
+                this.fares = data,
+            error =>
+                console.log(error), () =>
+                console.log('Get all Items complete')
+            );
     }
 }

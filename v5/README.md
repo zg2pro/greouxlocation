@@ -53,15 +53,10 @@ and you're done, you should have a content of google spreadsheet displayed in yo
 Remains to be done:
 ------------------
 -i18n
--footer = contact
 -partner pages
 -sass less ?
--remove unused files
--pack to production keep old version in separate folder
+-duplication of css files target
 - screens :
-1- home with carousel + add equipment (micro-wave, shower with ramp, supermarket ? wifi?)
+1- equipment (micro-wave, shower with ramp, supermarket ? wifi?)
 2- fares (reservation online? check availability. calendar?)
-3- management by google spreadsheet
-4- photos by angularui gallery
-5- equipement, conditions
 
