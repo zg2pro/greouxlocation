@@ -32,7 +32,22 @@ and now you should have your ts fully recognized with auto-completion of code an
 - use browserify to load all js files required by angular (concatenates the framework in one file)
 - use uglify to minify the bundled file
 
-
+to install google api for php :
+-install easyPhp
+-in project folder run the following commands :
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '669656bab3166a7aff8a7506b8cb2d1c292f042046c5a994c43155c0be6190fa0355160742ab2e1c88d40d5be660b410') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+php composer.phar require google/apiclient:^2.0
+and follow the quickstart of https://developers.google.com/sheets/api/quickstart/php
+it will help you create your oauth file + your first php file to authenticate
+then comment lines throwing exception when not using command lines
+then give your application name (like greouxlocation) and define CLIENT_SECRET_PATH correctly with your oauth file
+then run the php file a first time, it will give you a url you can copy and paste in another tab of your browser
+go to this url and get your auth key from google
+copy paste this key instead of having a STDIN prompt for this key, also remove the printf lines to prompt for STDIN
+and you're done, you should have a content of google spreadsheet displayed in your page
 
 
 Remains to be done:

@@ -1,61 +1,56 @@
 <?php
 
-require_once '../../../php_lib/google-api-php-client-2.1.3_PHP54/vendor/autoload.php';
+require_once '../../../vendor/autoload.php';
+require_once '../resources/security/key.php';
 
-define('APPLICATION_NAME', 'Google Sheets API PHP Quickstart');
+define('APPLICATION_NAME', 'greouxlocation');
 define('CLIENT_SECRET_PATH', './../resources/security/oauth.client.ids.json');
-define('CREDENTIALS_PATH', './../resources/security/service.account.key.json');
+define('CREDENTIALS_PATH', '~/.credentials/sheets.googleapis.com-php-quickstart.json');
 // If modifying these scopes, delete your previously saved credentials
 // at ~/.credentials/sheets.googleapis.com-php-quickstart.json
 define('SCOPES', implode(' ', array(
-  Google_Service_Sheets::SPREADSHEETS_READONLY)
+    Google_Service_Sheets::SPREADSHEETS_READONLY)
 ));
-
-//if (php_sapi_name() != 'cli') {
-//  throw new Exception('This application must be run on the command line.');
-//}
 
 /**
  * Returns an authorized API client.
  * @return Google_Client the authorized client object
  */
 function getClient() {
-  $client = new Google_Client();
-  $client->setApplicationName(APPLICATION_NAME);
-  
-  $client->setScopes(SCOPES);
-  $client->setAuthConfig(CLIENT_SECRET_PATH);
-  $client->setAccessType('offline');
+    $client = new Google_Client();
+    $client->setApplicationName(APPLICATION_NAME);
 
-  // Load previously authorized credentials from a file.
-  $credentialsPath = expandHomeDirectory(CREDENTIALS_PATH);
-  if (file_exists($credentialsPath)) {
-    $accessToken = json_decode(file_get_contents($credentialsPath), true);
-  } else {
-    // Request authorization from the user.
-    $authUrl = $client->createAuthUrl();
-    printf("Open the following link in your browser:\n%s\n", $authUrl);
-    print 'Enter verification code: ';
-    $authCode = trim(fgets(STDIN));
+    $client->setScopes(SCOPES);
+    $client->setAuthConfig(CLIENT_SECRET_PATH);
+    $client->setAccessType('offline');
 
-    // Exchange authorization code for an access token.
-    $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
+    // Load previously authorized credentials from a file.
+    $credentialsPath = expandHomeDirectory(CREDENTIALS_PATH);
+    if (file_exists($credentialsPath)) {
+        $accessToken = json_decode(file_get_contents($credentialsPath), true);
+    } else {
+        // Request authorization from the user.
+        $authUrl = $client->createAuthUrl();
+        $authCode = trim($greouxlocation_key);
 
-    // Store the credentials to disk.
-    if(!file_exists(dirname($credentialsPath))) {
-      mkdir(dirname($credentialsPath), 0700, true);
+        // Exchange authorization code for an access token.
+        $accessToken = $client->fetchAccessTokenWithAuthCode($authCode);
+
+        // Store the credentials to disk.
+        if (!file_exists(dirname($credentialsPath))) {
+            mkdir(dirname($credentialsPath), 0700, true);
+        }
+        file_put_contents($credentialsPath, json_encode($accessToken));
+        printf("Credentials saved to %s\n", $credentialsPath);
     }
-    file_put_contents($credentialsPath, json_encode($accessToken));
-    printf("Credentials saved to %s\n", $credentialsPath);
-  }
-  $client->setAccessToken($accessToken);
+    $client->setAccessToken($accessToken);
 
-  // Refresh the token if it's expired.
-  if ($client->isAccessTokenExpired()) {
-    $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());
-    file_put_contents($credentialsPath, json_encode($client->getAccessToken()));
-  }
-  return $client;
+    // Refresh the token if it's expired.
+    if ($client->isAccessTokenExpired()) {
+        $client->fetchAccessTokenWithRefreshToken($client->getRefreshToken());
+        file_put_contents($credentialsPath, json_encode($client->getAccessToken()));
+    }
+    return $client;
 }
 
 /**
@@ -64,32 +59,28 @@ function getClient() {
  * @return string the expanded path.
  */
 function expandHomeDirectory($path) {
-  $homeDirectory = getenv('HOME');
-  if (empty($homeDirectory)) {
-    $homeDirectory = getenv('HOMEDRIVE') . getenv('HOMEPATH');
-  }
-  return str_replace('~', realpath($homeDirectory), $path);
+    $homeDirectory = getenv('HOME');
+    if (empty($homeDirectory)) {
+        $homeDirectory = getenv('HOMEDRIVE') . getenv('HOMEPATH');
+    }
+    return str_replace('~', realpath($homeDirectory), $path);
 }
 
 // Get the API client and construct the service object.
 $client = getClient();
 $service = new Google_Service_Sheets($client);
 
-// Prints the names and majors of students in a sample spreadsheet:
-// https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-$spreadsheetId = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms';
-$range = 'Class Data!A2:E';
+$spreadsheetId = $greouxlocation_doc;
+$range = 'fares!A2:C';
 $response = $service->spreadsheets_values->get($spreadsheetId, $range);
 $values = $response->getValues();
 
-if (count($values) == 0) {
-  print "No data found.\n";
-} else {
-  print "Name, Major:\n";
-  foreach ($values as $row) {
-    // Print columns A and E, which correspond to indices 0 and 4.
-    printf("%s, %s\n", $row[0], $row[4]);
-  }
+print ("[\n");
+foreach ($values as $row) {
+    // Print columns A to C, which correspond to indices 0 1 and 2.
+    printf("{ \"french\": \"%s\", \n", $row[0]);
+    printf(" \"english\": \"%s\", \n", $row[1]);
+    printf("\"value\": \"%s\" } \n", $row[2]);
 }
-
+print ("]");
 ?>

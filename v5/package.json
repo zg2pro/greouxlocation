@@ -25,7 +25,7 @@
     "build:resources": "ncp src/app target/app && rimraf target/app/ts && rimraf target/**/*.ts",
     "compile": "npm run clean && npm run build:html && npm run build:resources && npm run build && npm run devtime",
     "package:modules": "copy-node-modules . dist && replace \\.\\.\\/\\.\\.\\/node_modules node_modules dist/index.html dist/systemjs.config.js",
-    "package:services": "ncp php_lib dist/php_lib && replace \\.\\.\\/\\.\\.\\/\\.\\.\\/php_lib php_lib dist/services/*.php",
+    "package:services": "ncp vendor dist/vendor && replace \\.\\.\\/\\.\\.\\/\\.\\.\\/vendor vendor dist/services/*.php",
     "package:prepare": "ncp target/app dist && npm run package:modules && npm run package:services",
     "package:minify": "uglifyjs dist/bundle.js --screw-ie8 --compress --mangle --output dist/bundle.min.js",
     "package:main": "replace System\\.import\\(\\'main System.import('bundle.min dist/index.html",
