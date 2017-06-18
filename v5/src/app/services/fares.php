@@ -1,7 +1,9 @@
 <?php
 
-require_once '../../../vendor/autoload.php';
 require_once '../resources/security/key.php';
+
+require_once '../../../vendor/autoload.php';
+
 
 define('APPLICATION_NAME', 'greouxlocation');
 define('CLIENT_SECRET_PATH', './../resources/security/oauth.client.ids.json');
@@ -16,14 +18,18 @@ define('SCOPES', implode(' ', array(
  * Returns an authorized API client.
  * @return Google_Client the authorized client object
  */
-function getClient() {
+function getClient($greouxlocation_api_key, $greouxlocation_key) {
     $client = new Google_Client();
     $client->setApplicationName(APPLICATION_NAME);
 
     $client->setScopes(SCOPES);
-    $client->setAuthConfig(CLIENT_SECRET_PATH);
-    $client->setAccessType('offline');
+//    $client->setDeveloperKey($greouxlocation_api_key);
 
+    $client->setAuthConfig(CLIENT_SECRET_PATH);
+
+    //$client->setRedirectUri("http://127.0.0.1/");
+    $client->setAccessType('offline');
+    $client->setApprovalPrompt('force');
     // Load previously authorized credentials from a file.
     $credentialsPath = expandHomeDirectory(CREDENTIALS_PATH);
     if (file_exists($credentialsPath)) {
@@ -31,6 +37,8 @@ function getClient() {
     } else {
         // Request authorization from the user.
         $authUrl = $client->createAuthUrl();
+//        printf("Open the following link in your browser:\n%s\n", $authUrl);
+//        print 'Enter verification code: ';
         $authCode = trim($greouxlocation_key);
 
         // Exchange authorization code for an access token.
@@ -67,7 +75,7 @@ function expandHomeDirectory($path) {
 }
 
 // Get the API client and construct the service object.
-$client = getClient();
+$client = getClient($greouxlocation_api_key, $greouxlocation_key);
 $service = new Google_Service_Sheets($client);
 
 $spreadsheetId = $greouxlocation_doc;
@@ -75,12 +83,14 @@ $range = 'fares!A2:C';
 $response = $service->spreadsheets_values->get($spreadsheetId, $range);
 $values = $response->getValues();
 
-print ("[\n");
+$jsonObj = [];
 foreach ($values as $row) {
-    // Print columns A to C, which correspond to indices 0 1 and 2.
-    printf("{ \"french\": \"%s\", \n", $row[0]);
-    printf(" \"english\": \"%s\", \n", $row[1]);
-    printf("\"value\": \"%s\" } \n", $row[2]);
+    $jsonItem = array(
+        "french" => $row[0],
+        "english" => $row[1],
+        "value" => $row[2]
+    );
+    array_push($jsonObj, $jsonItem);
 }
-print ("]");
+print json_encode($jsonObj);
 ?>
