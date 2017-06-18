@@ -34,39 +34,13 @@
 
 <br/><br/><br/>
 
-
-Disponibilit&eacute;s :
-<?php
-if (isset ($_POST['op'])){
-$op = $_POST['op'];
-
-if($op == "-") $month = $month -1;
-if($op == "+") $month = $month +1;
-if ($month == 0) {
-	$month = 12;
-	$year = $year - 1;
-}
-if ($month == 13) {
-	$month = 1;
-	$year = $year + 1;
-}
-}
-include("calendar.php");
-?>
-<!--frameset name="parent" rows="20%,*" border="0"> 
-<frame name="calframe" src="calendar.php?month=$month&year=$year" scrolling="no" /> 
-</frameset--> 
-<table style="width:60%;"><TR><TD class="available" style="width:50%;">Disponible</TD><TD style="width:50%;" class="busy">Occup&eacute;</TD></TR></table>
-
-<br/><br/>
-
 Tarifs :
 <table id="faresTab" border="2">
 <tbody>
 <?php
 require_once 'dbPassword.php';
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=".$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 $categories = array( "Basse Saison"
                 , "Moyenne Saison <br/> (Avril / Mai / Juin)"
