@@ -5,7 +5,7 @@ import {ImageInterface} from './visit.metadata';
 @Component({
     selector: 'visit-component',
     templateUrl: 'templates/visit.component.html',
-    styleUrls: ['visit.component.css']
+    styleUrls: ['resources/styles/visit.component.css']
 })
 export class VisitComponent extends AbstractContentComponent {
     myImages: ImageInterface[];

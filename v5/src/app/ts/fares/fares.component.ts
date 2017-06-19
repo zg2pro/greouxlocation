@@ -7,7 +7,7 @@ import {Fare} from './fares.metadata';
     selector: 'fares-component',
     providers: [FaresService],
     templateUrl: 'templates/fares.component.html',
-    styleUrls: ['fares.component.css']
+    styleUrls: ['resources/styles/fares.component.css']
 })
 export class FaresComponent extends AbstractContentComponent implements OnInit {
     public fares: Fare[];

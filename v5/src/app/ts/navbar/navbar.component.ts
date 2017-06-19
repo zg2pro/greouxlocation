@@ -6,7 +6,7 @@ import {MenuType} from './navbar.metadata';
     //moduleId: module.id,
     selector: 'navbar',
     templateUrl: 'templates/navbar.component.html',
-    styleUrls: ['navbar.component.css']
+    styleUrls: ['resources/styles/navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
     public menuItems: any[];

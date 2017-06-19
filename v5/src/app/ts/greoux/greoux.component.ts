@@ -6,7 +6,7 @@ declare var $: any;
 @Component({
     selector: 'greoux-component',
     templateUrl: 'templates/greoux.component.html',
-    styleUrls: ['greoux.component.css']
+    styleUrls: ['resources/styles/greoux.component.css']
 })
 export class GreouxComponent extends AbstractContentComponent {
 

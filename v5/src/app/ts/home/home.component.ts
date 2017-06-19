@@ -4,7 +4,7 @@ import {AbstractContentComponent} from './../abstract.content.component';
 @Component({
     selector: 'home-component',
     templateUrl: 'templates/home.component.html',
-    styleUrls: ['home.component.css']
+    styleUrls: ['resources/styles/home.component.css']
 })
 export class HomeComponent extends AbstractContentComponent {
 
