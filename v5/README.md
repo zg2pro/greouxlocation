@@ -53,6 +53,7 @@ and you're done, you should have a content of google spreadsheet displayed in yo
 Remains to be done:
 ------------------
 -i18n
+-favicon
 -partner pages
 -sass less ?
 - screens :
