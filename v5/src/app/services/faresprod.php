@@ -1,7 +1,6 @@
 <?php
 
 require_once '../resources/security/key.php';
-
 require_once '../vendor/autoload.php';
 
 

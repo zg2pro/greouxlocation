@@ -1,8 +1,8 @@
 <?php
 
-require_once '../resources/security/key.php';
-
-require_once '../../../vendor/autoload.php';
+require_once 'target.php';
+require_once BASE_RESOURCES_PATH.'key.php';
+require_once BASE_VENDOR_PATH.'autoload.php';
 
 
 define('APPLICATION_NAME', 'greouxlocation');

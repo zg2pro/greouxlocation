@@ -55,8 +55,6 @@ Remains to be done:
 -i18n
 -partner pages
 -sass less ?
--duplication of css files target
 - screens :
-1- equipment (micro-wave, shower with ramp, supermarket ? wifi?)
 2- fares (reservation online? check availability. calendar?)
 
