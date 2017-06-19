@@ -4,3 +4,7 @@
 .row u {
     font-size: 42px;
 }
+.row .col-6 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
