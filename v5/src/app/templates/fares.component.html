@@ -17,22 +17,29 @@
         </table>
     </div>
     <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-1">
+            Arrival
+        </div>
+        <!-- https://stackoverflow.com/questions/37280810/angular2-directive-with-scope -->
+        <div class="col-2">
+            <ngbd-datepicker-config ngModel name="dateBeg"></ngbd-datepicker-config>
+        </div>
+        <div class="col-1">
+            Departure <br/>
+        </div>
+        <div class="col-2">
+            <ngbd-datepicker-config ngModel name="dateEnd"></ngbd-datepicker-config>
+        </div>
         <div class="col-1">
         </div>
         <div class="col-2">
-            Arrival
-            <ngbd-datepicker-config></ngbd-datepicker-config>
+            <button  type="button" class="btn btn-primary btn-lg btn-block">
+                Check Availability
+            </button>
         </div>
-        <div class="col-2">
-            Departure
-            <ngbd-datepicker-config></ngbd-datepicker-config>
-        </div>
-        <div class="col-3">
-        </div>
-        <div class="col-2">
-            <button  type="button" class="btn btn-primary btn-lg btn-block">Check Availability</button>
-        </div>
-        <div class="col-2">
+        <div class="col-1">
         </div>
     </div>
 </div>

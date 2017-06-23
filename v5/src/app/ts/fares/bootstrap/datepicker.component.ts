@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input, Output, Directive} from '@angular/core';
 import {NgbDatepickerConfig, NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -7,8 +7,9 @@ import {NgbDatepickerConfig, NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
     providers: [NgbDatepickerConfig]
 })
 export class FaresDatepicker {
-
-    model: NgbDateStruct;
+    @Input()
+    @Output()
+    name: NgbDateStruct;
 
     constructor(config: NgbDatepickerConfig) {
         // customize default values of datepicker used by this component tree

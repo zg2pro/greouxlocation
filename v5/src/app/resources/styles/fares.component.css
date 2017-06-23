@@ -1,4 +1,8 @@
 
+table#faresTab {
+    table-layout: fixed;
+}
+
 .row {
     margin-top: 100px;
 }
