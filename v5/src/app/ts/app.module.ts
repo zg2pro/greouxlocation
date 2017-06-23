@@ -4,7 +4,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {JsonpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {Configuration} from './app.rest.configuration'
+import {Configuration} from './app.rest.configuration';
+import {AppAnalytics} from './app.analytics';
 import {NavbarModule} from './navbar/navbar.module';
 import {FootModule} from './foot/foot.module';
 import {HomeModule} from './home/home.module';
@@ -20,7 +21,7 @@ import {AppComponent} from './app.component';
         NavbarModule, FootModule, HomeModule, GreouxModule, VisitModule, FaresModule, EquipmentModule,
         RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],
-    providers: [Configuration],
+    providers: [Configuration, AppAnalytics],
     bootstrap: [AppComponent]
 })
 export class AppModule {

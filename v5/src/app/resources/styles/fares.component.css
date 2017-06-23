@@ -1,0 +1,12 @@
+
+.row {
+    margin-top: 100px;
+}
+
+table {
+    width: 100%;
+}
+
+.equal-width tr td {
+    width: 50%;
+}

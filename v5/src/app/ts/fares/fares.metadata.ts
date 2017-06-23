@@ -1,5 +1,4 @@
 export class Fare {
-    french: string;
-    english: string;
+    category: string;
     value: string;
 }
