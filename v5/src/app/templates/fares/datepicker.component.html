@@ -6,6 +6,7 @@
                name="{{name}}"
                ngbDatepicker 
                #d="ngbDatepicker"
+               (change)="valueChanged(event)"
                />
                <div class="input-group-addon" (click)="d.toggle()" >
             <i class="fa fa-calendar fa-lg"></i>

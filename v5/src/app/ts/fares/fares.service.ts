@@ -9,10 +9,20 @@ import {Fare} from './fares.metadata';
 @Injectable()
 export class FaresService {
 
+
     getFares(): Observable<Fare[]> {
-        return this._http.get(this.actionUrl)
-            .map((response: Response) => <Fare[]>response.json())
+        let fares = this._http.get(this.actionUrl)
+            .map(function (response: Response) {
+                let fares = <Fare[]> response.json();
+                fares.forEach(function (elt) {
+                    if (elt.category === "Taxes_de_sejour") {
+                        elt.value /= 100;
+                    }
+                });
+                return fares;
+            })
             .catch(this.handleError);
+        return fares;
     }
 
     private actionUrl: string;
@@ -24,7 +34,7 @@ export class FaresService {
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
     }
-    
+
     private handleError(error: Response) {
         console.error(error);
         return Observable.throw(error.json().error || 'Server error');

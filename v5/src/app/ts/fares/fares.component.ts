@@ -35,4 +35,8 @@ export class FaresComponent extends AbstractContentComponent implements OnInit {
                 console.log('Get all Items complete')
             );
     }
+
+    checkDates(dateBeg: NgbDateStruct) {
+        alert(this.dateBeg + " - " + dateBeg);
+    }
 }

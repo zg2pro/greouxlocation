@@ -1,4 +1,4 @@
-import {Component, Input, Output, Directive} from '@angular/core';
+import {Component, Input, Output, Directive, EventEmitter} from '@angular/core';
 import {NgbDatepickerConfig, NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -7,12 +7,20 @@ import {NgbDatepickerConfig, NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
     providers: [NgbDatepickerConfig]
 })
 export class FaresDatepicker {
+    public model: NgbDateStruct;
+
     @Input()
+    name: string;
+    
     @Output()
-    name: NgbDateStruct;
+    changed: EventEmitter<NgbDateStruct> = new EventEmitter<NgbDateStruct>();
 
     constructor(config: NgbDatepickerConfig) {
         // customize default values of datepicker used by this component tree
         config.firstDayOfWeek = 1;
+    }
+
+    valueChanged(event: any) {
+        this.changed.emit(this.model);
     }
 }

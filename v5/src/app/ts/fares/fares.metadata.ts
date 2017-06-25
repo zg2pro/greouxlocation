@@ -1,4 +1,4 @@
 export class Fare {
     category: string;
-    value: string;
+    value: number;
 }

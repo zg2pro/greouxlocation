@@ -6,13 +6,6 @@
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/README.md</file>
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/karma.conf.js</file>
         </group>
-        <group name="workspace">
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/systemjs.config.js</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/index.html</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/services/fares.php</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/fares/fares.service.ts</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/fares/fares.component.ts</file>
-        </group>
         <group name="php">
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/systemjs.config.js</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/resources/styles/fares.component.css</file>
@@ -31,6 +24,16 @@
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.analytics.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/app.module.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/ts/fares/fares.component.ts</file>
+        </group>
+        <group name="workspace">
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/templates/fares.component.html</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/services/jsonpgsql.php</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/fares/bootstrap/datepicker.component.ts</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/fares/fares.service.ts</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/services/fares.php</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/fares/fares.metadata.ts</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/templates/fares/datepicker.component.html</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/fares/fares.component.ts</file>
         </group>
     </open-files>
 </project-private>

@@ -1,6 +1,6 @@
 <?php
 
-require_once 'dbPassword.php';
+require_once '../resources/security/key.php';
 
 function pgjson ($q){
     $dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=".BASE_PWD)
@@ -8,7 +8,7 @@ function pgjson ($q){
     $result = pg_query($q) or die('Échec requête : ' . pg_last_error());
 
     $rows = array();
-    while($r = pg_fetch_assoc($sth)) {
+    while($r = pg_fetch_assoc($result)) {
         $rows[] = $r;
     }
 

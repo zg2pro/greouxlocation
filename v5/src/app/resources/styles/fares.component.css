@@ -14,3 +14,9 @@ table {
 .equal-width tr td {
     width: 50%;
 }
+
+.category-td {
+    background-color: orange;
+    color: #754C78;
+    font-weight: bold;
+}
