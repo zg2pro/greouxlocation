@@ -2,3 +2,4 @@
 #php 5
 #AddType x-mapp-php5 .php
 #Options +Indexes
+#php_flag "allow_url_fopen" "On" 
