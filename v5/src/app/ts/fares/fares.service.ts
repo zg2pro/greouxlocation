@@ -16,7 +16,8 @@ export class FaresService {
         body['end'] = end;
         return this._http.post(this.actionUrl + 'availability.php', body)
             .map(function (response: Response) {
-                return true;
+                let reply = response.json();
+                return reply.nb < 1;
             }).catch(this.handleError);
     }
 

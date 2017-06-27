@@ -3,3 +3,4 @@
 #AddType x-mapp-php5 .php
 #Options +Indexes
 #php_flag "allow_url_fopen" "On" 
+#php_flag "always_populate_raw_post_data" "-1"

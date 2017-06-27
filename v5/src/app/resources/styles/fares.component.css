@@ -6,6 +6,9 @@ table#faresTab {
 .row {
     margin-top: 100px;
 }
+.row.stuck {
+    margin-top: 30px;
+}
 
 table {
     width: 100%;
