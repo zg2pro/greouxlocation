@@ -2,18 +2,13 @@
     <div class="input-group">
         <input class="form-control" 
                placeholder="yyyy-mm-dd"
-               [(ngModel)]="model"
-               formControlName="model"
                ngbDatepicker 
+               ngModel
+               name="model"
                #d="ngbDatepicker"
-               (change)="console.log(1); onChanged.emit($event);"
-               (dateSelect)="console.log(2); onChanged.emit($event);"
-               (ngModelChange)="console.log(3); onChanged.emit($event);"
-               (navigated)="console.log(4); onChanged.emit($event);"
-               (blur)="console.log(5); onChanged.emit($event);"
-               (ngChange)="console.log(7); onChanged.emit($event);"
+               (ngModelChange)="valueChanged($event);"
                />
-               <div class="input-group-addon" (click)="d.toggle()" >
+        <div class="input-group-addon" (click)="d.toggle()" >
             <i class="fa fa-calendar fa-lg"></i>
         </div>
     </div>

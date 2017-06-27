@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row">
-        Tarifs : <br/>
+        Fares : <br/>
         <table id="faresTab">
             <tbody>
                 <tr>
@@ -16,7 +16,7 @@
             </tbody>
         </table>
     </div>
-    <form  #faresForm="ngForm">
+    <form>
         <div class="row">
             <div class="col-2">
             </div>
@@ -24,24 +24,24 @@
                 Check-in
             </div>
             <div class="col-2">
-            <ngbd-datepicker-config [(ngModel)]="dateBeg"></ngbd-datepicker-config>
+                <ngbd-datepicker-config name="dateBeg" #dateBeg (onChanged)="onChanged($event, 'dateBeg')"></ngbd-datepicker-config>
             </div>
             <div class="col-1">
                 Check-out <br/>
             </div>
             <div class="col-2">
-            <ngbd-datepicker-config [(ngModel)]="dateEnd"></ngbd-datepicker-config>
+                <ngbd-datepicker-config name="dateEnd" #dateEnd (onChanged)="onChanged($event, 'dateEnd')"></ngbd-datepicker-config>
             </div>
             <div class="col-1">
             </div>
             <div class="col-2">
-                <button  type="button" class="btn btn-primary btn-lg btn-block" (click)="checkDates(dateBeg)">
+                <button  type="button" class="btn btn-primary btn-lg btn-block" (click)="checkDates()">
                     Check Availability
                 </button>
             </div>
             <div class="col-1">
             </div>
         </div>
-    </form>
+    </form>  
 </div>
 <router-outlet></router-outlet>

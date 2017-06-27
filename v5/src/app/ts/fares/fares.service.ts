@@ -5,13 +5,23 @@ import 'rxjs/add/operator/catch';
 import {Observable} from 'rxjs/Observable';
 import {Configuration} from '../app.rest.configuration';
 import {Fare} from './fares.metadata';
+import {NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
 
 @Injectable()
 export class FaresService {
 
+    availability(begin: NgbDateStruct, end: NgbDateStruct): Observable<boolean> {
+        var body = {};
+        body['begin'] = begin;
+        body['end'] = end;
+        return this._http.post(this.actionUrl + 'availability.php', body)
+            .map(function (response: Response) {
+                return true;
+            }).catch(this.handleError);
+    }
 
     getFares(): Observable<Fare[]> {
-        let fares = this._http.get(this.actionUrl)
+        return this._http.get(this.actionUrl + 'fares.php')
             .map(function (response: Response) {
                 let fares = <Fare[]> response.json();
                 fares.forEach(function (elt) {
@@ -22,14 +32,13 @@ export class FaresService {
                 return fares;
             })
             .catch(this.handleError);
-        return fares;
     }
 
     private actionUrl: string;
     private headers: Headers;
 
     constructor(private _http: Http, private _configuration: Configuration) {
-        this.actionUrl = _configuration.ServerWithApiUrl + 'fares.php';
+        this.actionUrl = _configuration.ServerWithApiUrl;
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
