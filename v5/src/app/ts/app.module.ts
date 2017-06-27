@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 import {JsonpModule} from '@angular/http';
 import {RouterModule} from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
@@ -17,7 +17,7 @@ import {AppComponent} from './app.component';
 
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule,  
+    imports: [BrowserModule, FormsModule, JsonpModule,  
         NavbarModule, FootModule, HomeModule, GreouxModule, VisitModule, FaresModule, EquipmentModule,
         RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],

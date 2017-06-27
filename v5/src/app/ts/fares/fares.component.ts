@@ -4,6 +4,7 @@ import {FaresService} from './fares.service';
 import {Fare} from './fares.metadata';
 import {NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
 
+//https://stackoverflow.com/questions/37537157/angular2-no-provider-for-controlcontainer-when-building-a-simple-form
 @Component({
     selector: 'fares-component',
     providers: [FaresService],
@@ -36,7 +37,11 @@ export class FaresComponent extends AbstractContentComponent implements OnInit {
             );
     }
 
-    checkDates(dateBeg: NgbDateStruct) {
+    onChanged(change: any) {
+        alert("faresComp:" + change);
+    }
+
+    checkDates(dateBeg: any) {
         alert(this.dateBeg + " - " + dateBeg);
     }
 }

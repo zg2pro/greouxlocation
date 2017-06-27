@@ -59,7 +59,7 @@
         'platform-browser',
         'platform-browser-dynamic',
         'router',
-        'router-deprecated',
+        'router-deprecated'
     ];
 
     var ngBootstrapPackageNames = [
