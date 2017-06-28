@@ -23,7 +23,6 @@
         <script src="../../node_modules/systemjs/dist/system.src.js"></script>
         <script src="systemjs.config.js"></script>
         <script>
-//            angular.bootstrap(document.body, ['slick'], {strictDi: true});
             System.import('main.js').catch(function (err) {
                 console.error(err);
             });
@@ -32,7 +31,10 @@
 
     <body>
     <my-app>
-        Website loading ...
+        <div class="loading">
+            Website loading<br/>
+            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+        </div>
     </my-app>
 </body>
 </html>

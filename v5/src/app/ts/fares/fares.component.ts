@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {AbstractContentComponent} from './../abstract.content.component';
 import {FaresService} from './fares.service';
 import {Fare} from './fares.metadata';
 import {NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
@@ -10,14 +9,13 @@ import {NgbDateStruct} from '@ng-bootstrap/ng-bootstrap';
     templateUrl: 'templates/fares.component.html',
     styleUrls: ['resources/styles/fares.component.css']
 })
-export class FaresComponent extends AbstractContentComponent implements OnInit {
+export class FaresComponent implements OnInit {
     public fares: Fare[];
 
     dateBeg: NgbDateStruct;
     dateEnd: NgbDateStruct;
 
     constructor(private _dataService: FaresService) {
-        super();
     }
 
     ngOnInit() {

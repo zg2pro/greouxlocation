@@ -1,5 +1,8 @@
 .footer {
+    position: absolute;
+    left: 0;
     bottom: 0;
+    height: 150px;
     width: 100%;
     background-color: orange;
     color: #754C78;
