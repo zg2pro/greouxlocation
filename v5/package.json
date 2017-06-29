@@ -20,6 +20,7 @@
     "test:once": "karma start karma.conf.js --single-run",
     "lint": "tslint ./src/**/*.ts -t verbose",
     "clean": "rimraf target && rimraf dist",
+    "i18n": "ng-xi18n -p src/tsconfig.json",
     "devtime": "cli-timer on",
     "build:html": "copyfiles -f src/app/index.html src/app/**/*.js src/app/**/*.ico target/app",
     "build:resources": "ncp src/app target/app && rimraf target/app/ts && rimraf target/**/*.ts",
@@ -61,6 +62,8 @@
     "zone.js": "^0.8.11"
   },
   "devDependencies": {
+    "@angular/compiler-cli": "~4.0.0",
+    "@angular/platform-server": "~4.0.0",
     "@types/jasmine": "2.5.36",
     "@types/node": "^6.0.46",
     "browserify": "^14.4.0",
