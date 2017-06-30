@@ -1,4 +1,5 @@
 var replace = require("replace");
+var copyfiles = require('copyfiles');
 
 var nodeEnvArg = function () {
     var valIndex = -1;
@@ -21,7 +22,7 @@ console.log("the environment selected for replacements is: " + env);
 
 if (env === 'target') {
     var targets = {
-        "@_NPM_BASE_@": "..\\..\\node_modules",
+        "@_NPM_BASE_@": "../../node_modules",
         "@_HREF_BASE_@": "/edsa-greouxlocation/v5/target/app/",
         "@_MAIN_JS_@": "main.js"
     };
@@ -37,22 +38,28 @@ if (env === 'target') {
         }
     }
 } else if (env === 'dist') {
-    var dists = {
-        "@_NPM_BASE_@": "node_modules",
-        "@_HREF_BASE_@": "/edsa-greouxlocation/v5/dist/",
-        "@_MAIN_JS_@": "bundle.min.js"
-    };
-    for (var key in dists) {
-        if (dists.hasOwnProperty(key)) {
-            replace({
-                regex: key,
-                replacement: dists[key],
-                paths: ['dist/index.html', 'dist/systemjs.config.js'],
-                recursive: true,
-                silent: false
-            });
-        }
-    }
+    copyfiles(
+            ["src/app/index.html", "src/app/systemjs.config.js", "dist"],
+            {up: true},
+            function () {
+                var dists = {
+                    "@_NPM_BASE_@": "node_modules",
+                    "@_HREF_BASE_@": "/edsa-greouxlocation/v5/dist/",
+                    "@_MAIN_JS_@": "bundle.min.js"
+                };
+                for (var key in dists) {
+                    if (dists.hasOwnProperty(key)) {
+                        replace({
+                            regex: key,
+                            replacement: dists[key],
+                            paths: ['dist/index.html', 'dist/systemjs.config.js'],
+                            recursive: true,
+                            silent: false
+                        });
+                    }
+                }
+            }
+    );
 } else {
     throw "NODE_ENV is not set correctly to make replacements";
 }
