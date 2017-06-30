@@ -3,7 +3,6 @@ import {ROUTES} from './navbar-routes.config';
 import {MenuType} from './navbar.metadata';
 
 @Component({
-    //moduleId: module.id,
     selector: 'navbar',
     templateUrl: 'templates/navbar.component.html',
     styleUrls: ['resources/styles/navbar.component.css']
