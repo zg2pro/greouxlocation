@@ -1,8 +1,6 @@
 /nbproject/private/
-/v3/nbproject/private/
-/v4/nbproject/private/
 /v5/dist
 /v5/target
+/v5/node_modules
 /v5/src/app/resources/security
 /dbPassword.php
-/v6/nbproject/private/
