@@ -17,12 +17,6 @@
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/fares/datepicker.component.html</file>
             <file>file:/C:/workspace/php/greouxlocation/v5/src/app/templates/fares.component.html</file>
         </group>
-        <group name="workspace">
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/systemjs-angular-loader.js</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/package.json</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/app.component.spec.ts</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/app/ts/fares/fares.metadata.ts</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v5/src/tsconfig.json</file>
-        </group>
+        <group name="workspace"/>
     </open-files>
 </project-private>

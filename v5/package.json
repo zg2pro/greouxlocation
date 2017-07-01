@@ -62,9 +62,11 @@
     "zone.js": "^0.8.11"
   },
   "devDependencies": {
+    "@angular/cli": "~4.0.0",
     "@angular/compiler-cli": "~4.0.0",
     "@angular/platform-server": "~4.0.0",
     "@angular/tsc-wrapped": "~4.0.0",
+    "@angular/language-service": "^4.0.0",
     "@types/jasmine": "2.5.36",
     "@types/node": "^6.0.46",
     "browserify": "^14.4.0",
