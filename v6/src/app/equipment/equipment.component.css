@@ -1,0 +1,46 @@
+.row {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.row u {
+    font-size: 42px;
+}
+.row .col-6 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.row .col-6 ul.no-bullets li {
+    list-style-type: none;
+}
+[class^="fugue-"] {
+	background-position: 8px center;
+        background-repeat: no-repeat;
+        padding: 16px;
+}
+
+/*
+small icons :
+*/
+.fugue-lift { 
+	background-image: url(/assets/img/equipment/application-dock-090.png) !important; 
+}
+.fugue-broom { 
+	background-image: url(/assets/img/equipment/broom.png) !important; 
+}
+.fugue-car { 
+	background-image: url(/assets/img/equipment/car.png) !important; 
+}
+.fugue-cookies { 
+	background-image: url(/assets/img/equipment/cookies.png) !important; 
+}
+.fugue-store { 
+	background-image: url(/assets/img/equipment/store.png) !important; 
+}
+.fugue-television { 
+	background-image: url(/assets/img/equipment/television.png) !important; 
+}
+.fugue-sun { 
+	background-image: url(/assets/img/equipment/weather.png) !important; 
+}
+
+
