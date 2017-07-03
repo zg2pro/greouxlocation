@@ -15,7 +15,7 @@ export function getTranslationProviders(): Promise<Object[]> {
   }
  
   // Ex: 'locale/messages.es.xlf`
-  const translationFile = `assets/locale/messages.${locale}.xlf`;
+  const translationFile = `./assets/locale/messages.${locale}.xlf`;
  
   return getTranslationsWithSystemJs(translationFile)
     .then( (translations: string ) => [
