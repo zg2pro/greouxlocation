@@ -2,27 +2,46 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# greouxlocation
 
-## Code scaffolding
+to start an angular project:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+-install nodejs, npm, yo, typescript, gulp, express (all global)
 
-## Build
+npm install -g yo
+npm install -g generator-typescript
+npm install -g @angular/compiler-cli
+yo typescript
+(typescript comes with gulp)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+-install the Netbeans plugin for Typescript and node (use Netbeans "All" version containing the HTML/JS features)
+-in Netbeans options, point to the .cmd files inside the global node_modules, so that Netbeans targets can point to the gulp instructions to give in the gulp.js
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-Now run ng new my-app (my-app is the name of the app)
 
-## Running end-to-end tests
+-create web/html5 project from existing sources in NetBeans
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+-use Netbeans to "resolve project problems", it will  propose to import all the missing npm modules / alternatively run npm install
 
-## Further help
+-for hosting purpose, can install either an easyPhp or a chrome netbeans extension that will host the website
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+-if you don't plan to write unit tests, delete all non essential files: follow instructions on angular.io
+
+-run "npm run build" to build the project, if you're not using src as you're site root, you have to fix pathes for css and js in index.html and systemjs.config.js
+
+- in Netbeans (project properties) define "dist" as the site root and "src" as the source folder, 
+and now you should have your ts fully recognized with auto-completion of code and all...
+
+- in your test browser, open F12, and go to settings, then disable cache, with cache you would not be able to see your changes between deployments.
+
+
+Remains to be done:
+------------------
+-i18n
+-partner pages
+-sass less ?
+- screens :
+2- fares (reservation online? check availability. calendar?)
+

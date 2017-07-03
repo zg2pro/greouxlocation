@@ -1,10 +1,12 @@
 {
-  "name": "v6",
-  "version": "0.0.0",
+  "name": "greouxlocation",
+  "version": "0.0.1-SNAPSHOT",
+  "author": "zg2pro",
+  "description": "for renting an apartment in southern France",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist",
-    "i18n": "ng-xi18n --i18nFormat xlf",
+    "i18n": "ng-xi18n --i18nFormat xmb",
     "devtime": "cli-timer on",
     "ng": "ng",
     "start": "ng serve",
