@@ -1,5 +1,7 @@
 <div class="container-fluid">
-    <div class="row" i18n>Fares : </div>
+    <div class="row" i18n="@@7fd12c28e4e94cc694fae66ee5da0070f5a4c977">
+        Fares : 
+    </div>
     <div class="row stuck">
         <table id="faresTab">
             <tbody>
@@ -16,20 +18,20 @@
             </tbody>
         </table>
     </div>
-    <div class="row stuck" i18n>
+    <div class="row stuck" i18n="@@7f4b330e4778f47b18da7b3cd476db11d49a7889">
         Book 4 weeks and get a 10% discount.
     </div>
     <form>
         <div class="row">
             <div class="col-2">
             </div>
-            <div class="col-1" i18n>
+            <div class="col-1" i18n="@@b18b982de3ca0a9fc225c7557fe4046e47f02c65">
                 Check-in
             </div>
             <div class="col-2">
                 <ngbd-datepicker-config name="dateBeg" #dateBeg (onChanged)="onChanged($event, 'dateBeg')"></ngbd-datepicker-config>
             </div>
-            <div class="col-1" i18n>
+            <div class="col-1" i18n="@@2b5a1bfe16628849cb69029dce5100e66793c349">
                 Check-out <br/>
             </div>
             <div class="col-2">
@@ -38,7 +40,7 @@
             <div class="col-1">
             </div>
             <div class="col-2">
-                <button  type="button" class="btn btn-primary btn-lg btn-block" (click)="checkDates()" i18n>
+                <button  type="button" class="btn btn-primary btn-lg btn-block" (click)="checkDates()" i18n="@@263b78b71eb8e0c3c4c6eea6a355fffc2b4386cf">
                     Check Availability
                 </button>
             </div>
