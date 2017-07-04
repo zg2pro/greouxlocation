@@ -6,7 +6,12 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "baseUrl": "",
-    "types": []
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
   "exclude": [
     "test.ts",

@@ -24,9 +24,7 @@
         "../node_modules/ng2-image-gallery/ng2-image-gallery.css",
         "styles.css"
       ],
-      "scripts": [
-		"../node_modules/systemjs/dist/system.js"
-	  ],
+      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -57,6 +55,7 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {
+    }
   }
 }
