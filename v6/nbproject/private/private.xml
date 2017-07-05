@@ -8,10 +8,17 @@
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/package.json</file>
         </group>
         <group name="php">
-            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/i18n.providers.ts</file>
-            <file>file:/C:/workspace/php/greouxlocation/v6/package.json</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar-routes.config.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar.module.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar.component.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v6/src/main.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/home/title/title.component.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/i18n.providers.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/home/title/title.component.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v6/src/index.html</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar.metadata.ts</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/package.json</file>
+            <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar.component.html</file>
         </group>
     </open-files>
 </project-private>

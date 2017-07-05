@@ -20,7 +20,7 @@ export function getTranslationProviders(): Promise<Object[]> {
         ])
         .catch(() => noProviders); // ignore if file not found
 
-    debugger;
+   // debugger;
     return provider;
 }
 

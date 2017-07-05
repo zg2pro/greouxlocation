@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist",
-    "i18n": "ng-xi18n --i18nFormat xmb",
+    "i18n": "ng-xi18n --i18nFormat xlf",
     "devtime": "cli-timer on",
     "ng": "ng",
     "start": "ng serve",

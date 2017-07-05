@@ -3,11 +3,13 @@
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="91b96d7228b6e05c238fa4e39abfc17ad51a6eef" datatype="html">
-        <source>Email:</source>
+        <source>
+                Email:
+            </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/foot/foot.component.ts</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/foot/foot.component.ts</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="64a585698e099aea986f009d44ef5d2eb45a36e3" datatype="html">
@@ -16,35 +18,35 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/foot/foot.component.ts</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/foot/foot.component.ts</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ba2ef160f84d512c70ce6dff32972895a8f26b51" datatype="html">
-        <source>Telephone:</source>
+        <source>Phone:</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/foot/foot.component.ts</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/foot/foot.component.ts</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f0a586035aad0e8a688e27dacb97a960b0580e93" datatype="html">
         <source>
-                Fixe : +33(0)9.50.24.42.73.<x id="LINE_BREAK" ctype="lb"/>
+                Landline : +33(0)9.50.24.42.73.<x id="LINE_BREAK" ctype="lb"/>
                 Mobile : +33(0)6.14.90.88.30.
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/foot/foot.component.ts</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/foot/foot.component.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3a27ee8b2133e98ed72de3d335b931a6f1d181bc" datatype="html">
-        <source>Adresse:</source>
+        <source>Adress:</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/foot/foot.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/foot/foot.component.ts</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ba37409082d27b2e415b3d61d56c72aa6063c5a4" datatype="html">
@@ -57,8 +59,8 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/foot/foot.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/foot/foot.component.ts</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1b880a72381d8053ce8bb7b60086d9cd705f8636" datatype="html">
@@ -68,7 +70,7 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/home/bootstrap/carousel.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/home/bootstrap/carousel.component.ts</context>
           <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
@@ -81,7 +83,7 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/home/bootstrap/carousel.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/home/bootstrap/carousel.component.ts</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
@@ -96,7 +98,7 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/home/bootstrap/carousel.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/home/bootstrap/carousel.component.ts</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
@@ -104,15 +106,17 @@
         <source>Plane</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ca2db8c2761be4bec821d6536404c929bed6be23" datatype="html">
-        <source>Marseille Airport is 78km away (48 miles).</source>
+        <source>
+                                Marseille Airport is 78km away (48 miles).
+                            </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
@@ -120,8 +124,8 @@
         <source>Train</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1c099462b7278bc7950600fb81e2f6201bcc4989" datatype="html">
@@ -130,27 +134,27 @@
                             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5efc3f391f7ea3bc40fa42ac9fa0975e2ba6275a" datatype="html">
         <source>Car</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="17faf44f94985056d6326547188db117c02b7bfd" datatype="html">
         <source>
-                                If you are on mmotorway A7, exit at Senas,
+                                If you are on motorway A7, exit at Senas,
                                 you can also come from motorway A51 and exit at Greoux or Manosque
                             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="75901fbabef7a79fbc5c09e3153a9d3e728f5342" datatype="html">
@@ -159,8 +163,8 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
-          <context context-type="linenumber">40</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="798124d7a9fc675dc491cb666ec7816104db5534" datatype="html">
@@ -169,15 +173,17 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/greoux/greoux.component.ts</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7fd12c28e4e94cc694fae66ee5da0070f5a4c977" datatype="html">
-        <source>Fares : </source>
+        <source>
+        Fares : 
+    </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/fares/fares.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/fares/fares.component.ts</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
@@ -187,8 +193,8 @@
     </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/fares/fares.component.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/fares/fares.component.ts</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b18b982de3ca0a9fc225c7557fe4046e47f02c65" datatype="html">
@@ -197,8 +203,8 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/fares/fares.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/fares/fares.component.ts</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2b5a1bfe16628849cb69029dce5100e66793c349" datatype="html">
@@ -207,8 +213,8 @@
             </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/fares/fares.component.ts</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/fares/fares.component.ts</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="263b78b71eb8e0c3c4c6eea6a355fffc2b4386cf" datatype="html">
@@ -217,80 +223,94 @@
                 </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/fares/fares.component.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/fares/fares.component.ts</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b5806e1d10d093c411da07dfa6c4a6929201798d" datatype="html">
         <source>Services:</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="681e3d8078b69bd70ef933c5fa2a3496af188c68" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>House cleaning will be done before your arrival</source>
+        <source>
+                    <x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>House cleaning will be done before your arrival
+                </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4e1f92a01e8fff1740a291e86362b8914d99c78b" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Microwaves and oven</source>
+        <source>
+                    <x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Microwaves and oven
+                </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3e5a2489f824e005103261e96660184e07b1cdae" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Flat screen television and DVD player</source>
-        <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8ce0474423aa591a760671e817b84ce407232233" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>A sunny balcony</source>
-        <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ec4f02d2640ef7245a9890ec08f2056689a411f3" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Elevators</source>
+      <trans-unit id="3e5a2489f824e005103261e96660184e07b1cdae" datatype="html">
+        <source>
+                    <x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Flat screen television and DVD player
+                </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8ce0474423aa591a760671e817b84ce407232233" datatype="html">
+        <source>
+                    <x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>A sunny balcony
+                </source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec4f02d2640ef7245a9890ec08f2056689a411f3" datatype="html">
+        <source>
+                    <x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Elevators
+                </source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e6d48ea27f63586df0ce33b638c737cec54330fe" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Parking</source>
+        <source>
+                    <x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Parking
+                </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e3ec8af202387f237c2c97c6cf54fc994fbdcd27" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Supermarket nearby</source>
+        <source>
+                    <x id="START_TAG_SPAN" ctype="x-span"/><x id="CLOSE_TAG_SPAN" ctype="x-span"/>Supermarket nearby
+                </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e9b9f57c07bf7b8f8046fec5f8c173c5422a110b" datatype="html">
         <source>Conditions:</source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="289416841cf0591304c44638234de8aef9e9ae6f" datatype="html">
@@ -299,8 +319,8 @@
                 </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3b17de0f4387c4fd603dd2e963e8b9db8072f015" datatype="html">
@@ -310,8 +330,8 @@
                 </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="076ecba16e5d004b76a41520c514b45fe163fcab" datatype="html">
@@ -320,8 +340,8 @@
                 </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2a7a4095330e926a328193f150d4729e95f8e04b" datatype="html">
@@ -330,8 +350,8 @@
                 </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1d3467e1464fa41cac500a4cf6ec9c387b20f533" datatype="html">
@@ -340,8 +360,8 @@
                 </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="732cafc07d8470090e67cde09cfc5636ba21838f" datatype="html">
@@ -354,8 +374,8 @@
                 </source>
         <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">C:/Users/Gregory/workspace/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/equipment/equipment.component.ts</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
     </body>
