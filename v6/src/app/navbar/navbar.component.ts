@@ -5,7 +5,7 @@ import {ROUTES} from './navbar-routes.config';
 import {MenuType} from './navbar.metadata';
 import {TitleHome} from '../home/title/title.component';
 import {NavbarModule} from './navbar.module';
-import {I18NService} from '../i18n.service';
+//import {I18NService} from '../i18n.service';
 
 
 
@@ -24,8 +24,7 @@ import {I18NService} from '../i18n.service';
 @Component({
     selector: 'navbar',
     templateUrl: './navbar.component.html',
-    styleUrls: ['./navbar.component.css'],
-    providers: [I18NService]
+    styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
     public menuItems: any[];
@@ -35,7 +34,7 @@ export class NavbarComponent implements OnInit {
     fullImagePath: string;
     factory: ModuleWithComponentFactories<NavbarModule>;
 
-    constructor(private i18nService: I18NService) {
+    constructor() {
         this.fullImagePath = 'assets/img/ind_sight_of_greoux.jpg';
     }
 
@@ -43,7 +42,7 @@ export class NavbarComponent implements OnInit {
         this.menuItems = ROUTES.filter(menuItem => menuItem.menuType !== MenuType.BRAND);
         this.brandMenu = ROUTES.filter(menuItem => menuItem.menuType === MenuType.BRAND)[0];
         ;
-        this.brandMenu.title = this.i18nService.get("mainTitle");
+     //  this.brandMenu.title = this.i18nService.get("mainTitle");
 //        if (!this.factory) {
 //            const dynamicComponents = {
 //                titleHome: {comp: TitleHome}

@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
-import {JsonpModule} from '@angular/http';
+import {JsonpModule, HttpModule, Http} from "@angular/http";
 import {RouterModule} from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {Configuration} from './app.rest.configuration';
@@ -14,10 +14,23 @@ import {VisitModule} from './visit/visit.module';
 import {FaresModule} from './fares/fares.module';
 import {EquipmentModule} from './equipment/equipment.module';
 import {AppComponent} from './app.component';
+import {TranslateModule, TranslateLoader} from "@ngx-translate/core";
+import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: Http) {
+    return new TranslateHttpLoader(http, "i18n/", ".json");
+}
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, JsonpModule,  
+    imports: [BrowserModule, HttpModule,
+        TranslateModule.forRoot({
+          loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [Http]
+          }
+        }), FormsModule, JsonpModule,  
         NavbarModule, FootModule, HomeModule, GreouxModule, VisitModule, FaresModule, EquipmentModule,
         RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],

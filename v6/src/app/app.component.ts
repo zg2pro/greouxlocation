@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {AppAnalytics} from './app.analytics';
+//npm install --save @ngx-translate/core
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
     selector: 'app-root',
@@ -11,7 +13,12 @@ export class AppComponent implements OnInit {
     navbarCollapsed = true;
 
 
-    constructor(private _analytics: AppAnalytics) {
+    constructor(private _analytics: AppAnalytics, private translate: TranslateService) {
+         translate.addLangs(["en", "fr"]);
+        translate.setDefaultLang('en');
+
+        let browserLang = document.locale;
+        translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');
     }
 
     ngOnInit(): void {
