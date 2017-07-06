@@ -3,7 +3,6 @@ import {Router, NavigationEnd} from '@angular/router';
 import {Location} from '@angular/common';
 
 import {filter} from 'rxjs/operator/filter';
-//import {subscribe} from 'rxjs/add/operator/subscribe'
 
 declare const ga: any;
 

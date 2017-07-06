@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="workspace">
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/locale/messages.fr.xlf</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/app/foot/foot.component.html</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/package.json</file>
-        </group>
         <group name="php">
             <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar-routes.config.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar.module.ts</file>
@@ -19,6 +14,13 @@
             <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar.metadata.ts</file>
             <file>file:/C:/workspace/php/greouxlocation/v6/package.json</file>
             <file>file:/C:/workspace/php/greouxlocation/v6/src/app/navbar/navbar.component.html</file>
+        </group>
+        <group name="workspace">
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/app/navbar/navbar.module.ts</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/app/app.module.ts</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/package.json</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/app/navbar/navbar-routes.config.ts</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/app/navbar/navbar.component.html</file>
         </group>
     </open-files>
 </project-private>

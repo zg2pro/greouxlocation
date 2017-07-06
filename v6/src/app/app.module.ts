@@ -19,7 +19,7 @@ import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: Http) {
-    return new TranslateHttpLoader(http, "i18n/", ".json");
+    return new TranslateHttpLoader(http, "assets/locale/", ".json");
 }
 
 @NgModule({
@@ -31,7 +31,8 @@ export function HttpLoaderFactory(http: Http) {
             deps: [Http]
           }
         }), FormsModule, JsonpModule,  
-        NavbarModule, FootModule, HomeModule, GreouxModule, VisitModule, FaresModule, EquipmentModule,
+        NavbarModule, FootModule, HomeModule, 
+        GreouxModule, VisitModule, FaresModule, EquipmentModule,
         RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],
     providers: [Configuration, AppAnalytics],
