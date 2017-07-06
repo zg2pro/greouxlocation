@@ -1,7 +1,9 @@
 import { MenuType, RouteInfo } from './navbar.metadata';
 
+//npm install p3x-angular-compile
+//<div [p3x-compile]="data" [p3x-compile-context]="ctx">loading ...</div>
 export const ROUTES: RouteInfo[] = [
-  { path: '', title: 'Apartment renting in Greoux les Bains', menuType: MenuType.BRAND },
+  { path: '', title: '@@mainTitle', menuType: MenuType.BRAND },
   { path: 'greoux', title: 'Greoux', menuType: MenuType.LEFT },
   { path: 'visit', title: 'Visit', menuType: MenuType.LEFT },
   { path: 'fares', title: 'Fares', menuType: MenuType.LEFT },

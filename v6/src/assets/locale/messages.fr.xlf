@@ -2,6 +2,10 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="ng2.template">
         <body>
+            <trans-unit id="mainTitle" datatype="html">
+                <source>Apartment renting in Greoux les Bains</source>
+                <target>Location</target>
+            </trans-unit>
             <trans-unit id="91b96d7228b6e05c238fa4e39abfc17ad51a6eef" datatype="html">
                 <source>Email:</source>
                 <target>Email:</target>

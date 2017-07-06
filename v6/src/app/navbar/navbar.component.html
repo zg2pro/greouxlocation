@@ -14,7 +14,7 @@
             <li class="nav-item active">
                 <a class="navbar-link navbar-brand" [routerLink]="[brandMenu.path]">
                     <i class="fa fa-home fa-lg"></i> 
-                    <ng-content [innerHtml]="brandMenu.title"></ng-content>
+                    {{brandMenu.title}}
                     <span class="sr-only">(current)</span>
                 </a>
             </li>

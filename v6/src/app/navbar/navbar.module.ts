@@ -5,6 +5,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NavbarComponent} from './navbar.component';
 import {TitleHome} from '../home/title/title.component';
 
+
 @NgModule({
     imports: [NgbModule, RouterModule, CommonModule],
     declarations: [NavbarComponent, TitleHome],
