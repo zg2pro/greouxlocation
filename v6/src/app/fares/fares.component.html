@@ -9,7 +9,7 @@
                     <td *ngFor="let faresItem of fares">
                         <table class="equal-width" border="2">
                             <tr>
-                                <td class="category-td">{{faresItem.category}}</td>
+                                <td class="category-td">{{"fares."+faresItem.category | translate}}</td>
                                 <td>{{faresItem.value}} &euro;</td>
                             </tr>
                         </table>

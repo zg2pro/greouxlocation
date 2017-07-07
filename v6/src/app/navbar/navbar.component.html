@@ -20,7 +20,7 @@
             </li>
             <li class="nav-item"  *ngFor="let menuItem of menuItems" routerLinkActive="active">
                 <a class="nav-link" [routerLink]="[menuItem.path]" routerLinkActive="active">
-                    {{menuItem.title}}
+                    {{menuItem.title | translate}}
                 </a>
             </li>
         </ul>

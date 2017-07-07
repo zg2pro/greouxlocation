@@ -14,6 +14,10 @@
                 <source>greouxlocation@free.fr</source>
                 <target>greouxlocation@free.fr</target>
             </trans-unit>
+            <trans-unit id="64a585698e099aea986f009d44ef5d2eb45a36e4" datatype="html">
+                <source>Download the booking form</source>
+                <target>Formulaire de réservation</target>
+            </trans-unit>
             <trans-unit id="ba2ef160f84d512c70ce6dff32972895a8f26b51" datatype="html">
                 <source>Phone:</source>
                 <target>Telephone:</target>

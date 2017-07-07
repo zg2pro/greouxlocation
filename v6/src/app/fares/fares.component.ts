@@ -20,6 +20,7 @@ export class FaresComponent implements OnInit {
 
     ngOnInit() {
         this.getAllItems();
+      //  this.fares.forEach((data: Fare) => {data.category = "fares." + data.category});
     }
 
     private getAllItems(): void {
