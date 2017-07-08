@@ -9,7 +9,9 @@
                     <td *ngFor="let faresItem of fares">
                         <table class="equal-width" border="2">
                             <tr>
-                                <td class="category-td">{{"fares."+faresItem.category | translate}}</td>
+                                <td class="category-td">
+                                    {{"fares."+faresItem.category | translate}}
+                                </td>
                                 <td>{{faresItem.value}} &euro;</td>
                             </tr>
                         </table>
@@ -40,7 +42,8 @@
             <div class="col-1">
             </div>
             <div class="col-2">
-                <button  type="button" class="btn btn-primary btn-lg btn-block" (click)="checkDates()" i18n="@@263b78b71eb8e0c3c4c6eea6a355fffc2b4386cf">
+                <button  type="button" class="btn btn-primary btn-lg" (click)="checkDates()"
+                         i18n="@@263b78b71eb8e0c3c4c6eea6a355fffc2b4386cf">
                     Check Availability
                 </button>
             </div>

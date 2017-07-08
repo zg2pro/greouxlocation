@@ -203,7 +203,8 @@
                     <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Microwaves and oven
                 </source>
                 <target>
-                    Micro-ondes et four
+                    <x id="START_TAG_SPAN" ctype="x-span"/>
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Micro-ondes et four
                 </target>
             </trans-unit>
             <trans-unit id="3e5a2489f824e005103261e96660184e07b1cdae" datatype="html">

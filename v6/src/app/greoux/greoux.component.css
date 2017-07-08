@@ -11,3 +11,6 @@ table tr:first-child td {
 table tr td {
     padding-top: 20px;
 }
+table tr td .row {
+    margin-left: -3px;
+}

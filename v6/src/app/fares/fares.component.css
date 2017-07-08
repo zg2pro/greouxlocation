@@ -12,6 +12,7 @@ table#faresTab {
 
 table {
     width: 100%;
+    height: 100%;
 }
 
 .equal-width tr td {
