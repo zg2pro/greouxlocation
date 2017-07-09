@@ -9,7 +9,7 @@ import {environment} from './environments/environment';
 let url = new URL("http://xxx" + window.location.search);
 let loc = url.searchParams.get("locale");
 if (loc === undefined || loc === "" || loc === null) {
-    loc = "en";
+    loc = navigator['language'] || navigator['userLanguage'];
 }
 document['locale'] = loc;
 

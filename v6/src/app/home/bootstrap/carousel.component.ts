@@ -9,7 +9,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 export class GreouxCarousel {
     constructor(config: NgbCarouselConfig) {
         // customize default values of carousels used by this component tree
-        config.interval = 3000;
+        config.interval = 4500;
         config.wrap = true;
         config.keyboard = false;
     }

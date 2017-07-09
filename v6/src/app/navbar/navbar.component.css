@@ -39,3 +39,9 @@ nav a {
 ul.navbar-nav {
     font-weight: bold;
 }
+.dropdown-menu {
+    min-width: 50px;
+}
+.dropdown-menu a.dropdown-item img {
+    height: 20px;
+}
