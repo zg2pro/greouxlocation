@@ -1,15 +1,16 @@
 {
-  "navbar": {
-    "title": "Wohnung mieten in Gréoux les Bains",
-    "greoux": "Greoux",
-    "visit": "Besuch",
-    "fares": "Preise",
-    "equipment": "Ausrüstung"
-  },
-  "fares": {
-      "basse": "Nebensaison",
-      "moyenne": "Zwischensaison (April bis Juni)",
-      "haute": "Hochsaison (Juli bis Oktober)",
-      "Taxes_de_sejour": "Kurtaxe"
-  }
+    "navbar": {
+        "title": "Wohnung mieten in Gréoux les Bains",
+        "greoux": "Greoux",
+        "visit": "Besuch",
+        "fares": "Preise",
+        "equipment": "Ausrüstung",
+        "language": "Sprache"
+    },
+    "fares": {
+        "basse": "Nebensaison",
+        "moyenne": "Zwischensaison (April bis Juni)",
+        "haute": "Hochsaison (Juli bis Oktober)",
+        "Taxes_de_sejour": "Kurtaxe"
+    }
 }

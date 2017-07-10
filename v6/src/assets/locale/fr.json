@@ -1,15 +1,16 @@
 {
-  "navbar": {
-    "title": "Location d'appartement à Gréoux les Bains",
-    "greoux": "Gréoux",
-    "visit": "Visite",
-    "fares": "Tarifs",
-    "equipment": "Equipement"
-  },
-  "fares": {
-      "basse": "Basse Saison",
-      "moyenne": "Moyenne Saison (Avril / Mai / Juin)",
-      "haute": "Haute Saison (Juillet / Août / Septembre / Octobre)",
-      "Taxes_de_sejour": "Taxes de Séjour"
-  }
+    "navbar": {
+        "title": "Location d'appartement à Gréoux les Bains",
+        "greoux": "Gréoux",
+        "visit": "Visite",
+        "fares": "Tarifs",
+        "equipment": "Equipement",
+        "language": "Langue"
+    },
+    "fares": {
+        "basse": "Basse Saison",
+        "moyenne": "Moyenne Saison (Avril / Mai / Juin)",
+        "haute": "Haute Saison (Juillet / Août / Septembre / Octobre)",
+        "Taxes_de_sejour": "Taxes de Séjour"
+    }
 }
