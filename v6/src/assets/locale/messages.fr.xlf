@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="mainTitle" datatype="html">
                 <source>Apartment renting in Greoux les Bains</source>
-                <target>Location</target>
+                <target>Location d'Appartement à Gréoux les Bains</target>
             </trans-unit>
             <trans-unit id="languageButton" datatype="html">
                 <source>Language</source>
