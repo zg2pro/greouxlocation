@@ -63,7 +63,7 @@
                 </source>
                 <target>
                     Studio-Wohnung mit allem Komfort, ein Steinwurf von der
-                    Thermen in Gréoux-les-Bains (Provence, Frankreich)
+                    Thermen in Gréoux-les-Bains (Provence, Frankreich)
                 </target>
             </trans-unit>
             <trans-unit id="7520608119a3ff6e653942eac443cdab01faebc4" datatype="html">
@@ -75,9 +75,9 @@
                 </source>
                 <target>
                     Mit Thermale du Soleil, genießen einen Whirlpool in der Geschichte,
-                    Wo die Ruhe brauchen Sie zum Entspannen und Erholen vorherrscht. das Personal
-                    ist immer nett und höflich und vorsichtig Land nahe an den Kunden. Das Hotel ist sauber
-                    und gut gepflegt.
+                    Wo die Ruhe brauchen Sie zum Entspannen und Erholen vorherrscht. das Personal
+                    ist immer nett und höflich und vorsichtig Land nahe an den Kunden. Das Hotel ist sauber
+                    und gut gepflegt.
                 </target>
             </trans-unit>
             <trans-unit id="c18b8e01d9a88e06b5f8d4db73442b41b21ffd0c" datatype="html">
@@ -91,11 +91,11 @@
                 </source>
                 <target>
                     Suchen Sie ein Studio-Peer-to-Peer zu mieten?
-                    <X id = "LINE_BREAK" ctype = "lb" />
+                    <x id="LINE_BREAK" ctype="lb"/>
                     Seit einigen Jahren 100% unserer Kunden-haben-erfüllt sind
-                    der Ort, wo wir Sie herzlich willkommen.
-                    <X id = "LINE_BREAK" ctype = "lb" />
-                    Bitte zögern Sie nicht uns zu kontaktieren.
+                    der Ort, wo wir Sie herzlich willkommen.
+                    <x id="LINE_BREAK" ctype="lb"/>
+                    Bitte zögern Sie nicht uns zu kontaktieren.
                 </target>
             </trans-unit>
             <trans-unit id="f83166ea9946edcd05d1aa0d95d999f5abcae5a3" datatype="html">
@@ -317,12 +317,12 @@
                     If you don&apos;t have a printer, please call me and I&apos;ll send it to you
                 </source>
                 <target>
-                    Wenn Sie buchen möchten, füllen Sie einfach das <x id = "START_LINK" ctype = "x-a" /> Online-Formular <x id = "CLOSE_LINK" ctype = "x-a" /> 
-					mit Ihren Angaben
-                    Bitte laden das PDF-Formular Sie-haben, es zu drucken und an uns ausgedruckt und unterschrieben von der Post.
-                    Ihre Buchung wird auf jeden Fall berücksichtigt werden, wenn Sie die Prüfung auf das Formular anhängen.
-
-                    Wenn Sie keinen Drucker haben, rufen Sie uns an und wir werden Sie das Formular senden.
+                    Wenn Sie buchen möchten, füllen Sie einfach das <x id = "START_LINK" ctype = "x-a" /> Online-Formular <x id = "CLOSE_LINK" ctype = "x-a" />
+                    mit Ihren Angaben.
+                    Bitte laden das PDF-Formular Sie-haben, es zu drucken und an uns ausgedruckt und unterschrieben von der Post.
+                    Ihre Buchung wird auf jeden Fall berücksichtigt werden, wenn Sie die Prüfung auf das Formular anhängen.
+                    
+                    Wenn Sie keinen Drucker haben, rufen Sie uns an und wir werden Sie das Formular senden.
                 </target>
             </trans-unit>
         </body>

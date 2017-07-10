@@ -1,15 +1,15 @@
 {
   "navbar": {
-    "title": "Apartment renting in Greoux les Bains",
+    "title": "Affitto appartamento in Greoux les Bains",
     "greoux": "Greoux",
-    "visit": "Visit",
-    "fares": "Fares",
-    "equipment": "Equipment"
+    "visit": "Visita",
+    "fares": "Tariffe",
+    "equipment": "Attrezzatura"
   },
   "fares": {
-      "basse": "Low Season",
-      "moyenne": "Mid Season (April to June)",
-      "haute": "High Season (July to October)",
-      "Taxes_de_sejour": "Tourist tax"
+      "basse": "Bassa stagione",
+      "moyenne": "Mezza stagione (Da aprile a giugno)",
+      "haute": "Alta Stagione (da luglio a ottobre)",
+      "Taxes_de_sejour": "Tassa di soggiorno"
   }
 }

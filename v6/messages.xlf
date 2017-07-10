@@ -42,7 +42,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="3a27ee8b2133e98ed72de3d335b931a6f1d181bc" datatype="html">
-        <source>Adress:</source>
+        <source>Address:</source>
         <target/>
         <context-group purpose="location">
           <context context-type="sourcefile">C:/workspace/php/greouxlocation/v6/src/app/foot/foot.component.ts</context>

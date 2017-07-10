@@ -12,12 +12,12 @@ export class AppComponent implements OnInit {
     navbarCollapsed = true;
 
     constructor(private _analytics: AppAnalytics, private translate: TranslateService) {
-        translate.addLangs(["en", "fr"]);
+        translate.addLangs(["en", "fr", "de", "it", "sp"]);
         translate.setDefaultLang('en');
 
         let browserLang = document['locale'] as string;
         
-        translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');
+        translate.use(browserLang.match(/en|fr|sp|it|de/) ? browserLang : 'en');
     }
 
     ngOnInit(): void {

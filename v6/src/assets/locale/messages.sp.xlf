@@ -4,11 +4,11 @@
         <body>
             <trans-unit id="mainTitle" datatype="html">
                 <source>Apartment renting in Greoux les Bains</source>
-                <target>Location</target>
+                <target>Apartamento en alquiler en Greoux les Bains</target>
             </trans-unit>
             <trans-unit id="languageButton" datatype="html">
                 <source>Language</source>
-                <target>Langue</target>
+                <target>Idioma</target>
             </trans-unit>
             <trans-unit id="91b96d7228b6e05c238fa4e39abfc17ad51a6eef" datatype="html">
                 <source>Email:</source>
@@ -20,11 +20,11 @@
             </trans-unit>
             <trans-unit id="64a585698e099aea986f009d44ef5d2eb45a36e4" datatype="html">
                 <source>Download the booking form</source>
-                <target>Formulaire de réservation</target>
+                <target>Descargar el formulario de reserva</target>
             </trans-unit>
             <trans-unit id="ba2ef160f84d512c70ce6dff32972895a8f26b51" datatype="html">
                 <source>Phone:</source>
-                <target>Telephone:</target>
+                <target>Teléfono:</target>
             </trans-unit>
             <trans-unit id="f0a586035aad0e8a688e27dacb97a960b0580e93" datatype="html">
                 <source>
@@ -32,13 +32,13 @@
                     Mobile : +33(0)6.14.90.88.30.
                 </source>
                 <target>
-                    Fixe : +33(0)9.50.24.42.73.<x id="LINE_BREAK" ctype="lb"/>
-                    Mobile : +33(0)6.14.90.88.30.
+                    Línea fija : +33(0)9.50.24.42.73.<x id="LINE_BREAK" ctype="lb"/>
+                    Móvil : +33(0)6.14.90.88.30.
                 </target>
             </trans-unit>
             <trans-unit id="3a27ee8b2133e98ed72de3d335b931a6f1d181bc" datatype="html">
                 <source>Address:</source>
-                <target>Adresse :</target>
+                <target>Dirección :</target>
             </trans-unit>
             <trans-unit id="ba37409082d27b2e415b3d61d56c72aa6063c5a4" datatype="html">
                 <source>
@@ -62,7 +62,8 @@
                     thermal baths in Greoux-les-Bains (Provence, France)
                 </source>
                 <target>
-                    Studio avec tout le confort, à un jet de pierre des thermes de Gréoux les Bains.
+                    Estudio con todas las comodidades, a un tiro de piedra de los
+                    baños termales en Greoux-les-Bains (Provenza, Francia)
                 </target>
             </trans-unit>
             <trans-unit id="7520608119a3ff6e653942eac443cdab01faebc4" datatype="html">
@@ -73,10 +74,10 @@
                     and well maintained.
                 </source>
                 <target>
-                    Avec la Chaîne Thermale du Soleil, vivez l'expérience de thermes encrés dans l'histoire,
-                    où règne tout le calme dont vous avez besoin pour vous détendre. Le personnel des thermes
-                    est toujours courtois et poli et prête grande attention aux clients. L'endroit est propre
-                    et bien entretenu.
+                    Con Chaîne Thermale du Soleil, disfrute de baños termales llenos de historia,
+                    Donde la calma que necesita para relajarse y recuperarse prevalece. El personal
+                    es siempre agradable y cortés y paga la atención cercana a los clientes. Está limpio
+                    y bien mantenido.
                 </target>
             </trans-unit>
             <trans-unit id="c18b8e01d9a88e06b5f8d4db73442b41b21ffd0c" datatype="html">
@@ -89,37 +90,37 @@
                     Please feel free to contact us.
                 </source>
                 <target>
-                    Vous cherchez une location de studio de particulier à particulier ?
+                    ¿Está buscando un estudio para alquilar peer-to-peer?
                     <x id="LINE_BREAK" ctype="lb"/>
-                    Depuis plusieurs années, 100% de nos clients ont été satisfaits
-                    de l'appartement que nous leur avons loué.
+                    Desde hace varios años, el 100% de nuestros clientes han sido perfeccionados
+                    del lugar donde le damos la bienvenida.
                     <x id="LINE_BREAK" ctype="lb"/>
-                    N'hésitez pas à faire appel à nous.
+                    Siéntete libre de contactarnos.
                 </target>
             </trans-unit>
             <trans-unit id="f83166ea9946edcd05d1aa0d95d999f5abcae5a3" datatype="html">
                 <source>Plane</source>
-                <target>Avion</target>
+                <target>Avión</target>
             </trans-unit>
             <trans-unit id="ca2db8c2761be4bec821d6536404c929bed6be23" datatype="html">
                 <source>Marseille Airport is 78km away (48 miles).</source>
-                <target>L'aéroport de Marseille-Marignane est à 78km.</target>
+                <target>El aeropuerto de Marsella-Marignane está a 78 km.</target>
             </trans-unit>
             <trans-unit id="53b90b2c08de47d989c191cb36b85a044e25908a" datatype="html">
                 <source>Train</source>
-                <target>Train</target>
+                <target>Tren</target>
             </trans-unit>
             <trans-unit id="1c099462b7278bc7950600fb81e2f6201bcc4989" datatype="html">
                 <source>
                     Manosque railway station is 14km away (8.7 miles).
                 </source>
                 <target>
-                    La gare de Manosque est à 14 km.
+                    La estación de Manosque está a 14 km.
                 </target>
             </trans-unit>
             <trans-unit id="5efc3f391f7ea3bc40fa42ac9fa0975e2ba6275a" datatype="html">
                 <source>Car</source>
-                <target>Voiture</target>
+                <target>Coche</target>
             </trans-unit>
             <trans-unit id="17faf44f94985056d6326547188db117c02b7bfd" datatype="html">
                 <source>
@@ -127,8 +128,8 @@
                     you can also come from motorway A51 and exit at Greoux or Manosque
                 </source>
                 <target>
-                    Si vous arrivez de l'autoroute A7, sortez à Senas,
-                    vous pouvez aussi venir de l'autoroute A51 et sortir à Greoux ou Manosque
+                    Si usted está en la autopista A7, salir en Senas,
+                    también puede venir desde la autopista A51 y salir en Greoux o Manosque
                 </target>
             </trans-unit>
             <trans-unit id="75901fbabef7a79fbc5c09e3153a9d3e728f5342" datatype="html">
@@ -136,7 +137,7 @@
                     In the heart of the Verdon Canyon, the lake Sainte-croix is 23km away (14 miles)
                 </source>
                 <target>
-                    Au coeur des gorges du Verdon, le lac de Sainte-Croix est à 23km.
+                    En el corazón del Cañón de Verdon, el lago Sainte-croix está a 23 km
                 </target>
             </trans-unit>
             <trans-unit id="798124d7a9fc675dc491cb666ec7816104db5534" datatype="html">
@@ -144,19 +145,19 @@
                     Aix en Provence is 50km away (31 miles)
                 </source>
                 <target>
-                    Aix en Provence est à 50km
+                    Aix en Provence está a 50km
                 </target>
             </trans-unit>
             <trans-unit id="7fd12c28e4e94cc694fae66ee5da0070f5a4c977" datatype="html">
                 <source>Fares : </source>
-                <target>Tarifs : </target>
+                <target>Tarifas : </target>
             </trans-unit>
             <trans-unit id="7f4b330e4778f47b18da7b3cd476db11d49a7889" datatype="html">
                 <source>
                     Book 4 weeks and get a 10% discount.
                 </source>
                 <target>
-                    Réservez 4 semaines consécutives et nous vous offrons 10%.
+                    Reserve 4 semanas consécutives et nous vous offrons 10%.
                 </target>
             </trans-unit>
             <trans-unit id="b18b982de3ca0a9fc225c7557fe4046e47f02c65" datatype="html">
@@ -164,7 +165,7 @@
                     Check-in
                 </source>
                 <target>
-                    Du
+                    Del
                 </target>
             </trans-unit>
             <trans-unit id="2b5a1bfe16628849cb69029dce5100e66793c349" datatype="html">
@@ -172,7 +173,7 @@
                     Check-out <x id="LINE_BREAK" ctype="lb"/>
                 </source>
                 <target>
-                    Au <x id="LINE_BREAK" ctype="lb"/>
+                    Al <x id="LINE_BREAK" ctype="lb"/>
                 </target>
             </trans-unit>
             <trans-unit id="263b78b71eb8e0c3c4c6eea6a355fffc2b4386cf" datatype="html">
@@ -180,7 +181,7 @@
                     Check Availability
                 </source>
                 <target>
-                    Vérifier la disponibilité
+                    Verificación de disponibilidad
                 </target>
             </trans-unit>
             <trans-unit id="b5806e1d10d093c411da07dfa6c4a6929201798d" datatype="html">
@@ -188,7 +189,7 @@
                     Services:
                 </source>
                 <target>
-                    Services:
+                    Servicios:
                 </target>
             </trans-unit>
             <trans-unit id="681e3d8078b69bd70ef933c5fa2a3496af188c68" datatype="html">
@@ -198,7 +199,7 @@
                 </source>
                 <target>
                     <x id="START_TAG_SPAN" ctype="x-span"/>
-                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Le ménage est fait avant votre arrivée
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>La limpieza de la casa se hará antes de su llegada
                 </target>
             </trans-unit>
             <trans-unit id="4e1f92a01e8fff1740a291e86362b8914d99c78b" datatype="html">
@@ -208,7 +209,7 @@
                 </source>
                 <target>
                     <x id="START_TAG_SPAN" ctype="x-span"/>
-                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Micro-ondes et four
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Microondas y horno
                 </target>
             </trans-unit>
             <trans-unit id="3e5a2489f824e005103261e96660184e07b1cdae" datatype="html">
@@ -218,7 +219,7 @@
                 </source>
                 <target>
                     <x id="START_TAG_SPAN" ctype="x-span"/>
-                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Ecran plat et lecteur de DVD
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Televisión de pantalla plana y reproductor de DVD
                 </target>
             </trans-unit>
             <trans-unit id="8ce0474423aa591a760671e817b84ce407232233" datatype="html">
@@ -228,7 +229,7 @@
                 </source>
                 <target>
                     <x id="START_TAG_SPAN" ctype="x-span"/>
-                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Un balcon ensoleillé
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Un balcón soleado
                 </target>
             </trans-unit>
             <trans-unit id="ec4f02d2640ef7245a9890ec08f2056689a411f3" datatype="html">
@@ -238,7 +239,7 @@
                 </source>
                 <target>
                     <x id="START_TAG_SPAN" ctype="x-span"/>
-                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Ascenseurs
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Elevadores
                 </target>
             </trans-unit>
             <trans-unit id="e6d48ea27f63586df0ce33b638c737cec54330fe" datatype="html">
@@ -248,7 +249,7 @@
                 </source>
                 <target>
                     <x id="START_TAG_SPAN" ctype="x-span"/>
-                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Parking
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Estacionamiento
                 </target>
             </trans-unit>
             <trans-unit id="e3ec8af202387f237c2c97c6cf54fc994fbdcd27" datatype="html">
@@ -258,7 +259,7 @@
                 </source>
                 <target>
                     <x id="START_TAG_SPAN" ctype="x-span"/>
-                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Superette à proximité
+                    <x id="CLOSE_TAG_SPAN" ctype="x-span"/>Supermercado cercano
                 </target>
             </trans-unit>
             <trans-unit id="e9b9f57c07bf7b8f8046fec5f8c173c5422a110b" datatype="html">
@@ -270,7 +271,7 @@
                     When you book, you will be requested pay 25% of the total amount
                 </source>
                 <target>
-                    Lorsque vous réservez, nous vous demandons de payer 25% du montant total
+                    Al reservar, se le pedirá pagar el 25% del importe total
                 </target>
             </trans-unit>
             <trans-unit id="3b17de0f4387c4fd603dd2e963e8b9db8072f015" datatype="html">
@@ -279,8 +280,8 @@
                     but will not be cashed and it will be returned to you when you leave if everything is all right.
                 </source>
                 <target>
-                    A votre arrivée, nous procédons ensemble à un état des lieux. Un chèque de de caution de 250€ vous est demandé
-                    mais ne sera pas encaissé, nous vous le rendons lors de votre départ si tout va bien.
+                    Al llegar, procedemos juntos a un inventario entrante de los accesorios. Un cheque de 250 € (o efectivo) será requerido
+                    pero no será cobrado y será devuelto a usted cuando salga si todo está bien.
                 </target>
             </trans-unit>
             <trans-unit id="076ecba16e5d004b76a41520c514b45fe163fcab" datatype="html">
@@ -288,7 +289,7 @@
                     A tourist tax is collected by the town hall, per person and is an extra added to the fares we tell you.
                 </source>
                 <target>
-                    Une taxe de séjour est collectée par la mairie, chaque occupant de l'appartement en fait l'objet, ceci s'ajoute au tarif de base.
+                    Un impuesto turístico es cobrado por el ayuntamiento, por persona y es un extra añadido a las tarifas que le decimos.
                 </target>
             </trans-unit>
             <trans-unit id="2a7a4095330e926a328193f150d4729e95f8e04b" datatype="html">
@@ -296,7 +297,7 @@
                     Our pet friends are not allowed in the residence
                 </source>
                 <target>
-                    Nos amies les bêtes ne sont pas autorisées dans la résidence
+                    Nuestros amigos de mascotas no están permitidos en la residencia
                 </target>
             </trans-unit>
             <trans-unit id="1d3467e1464fa41cac500a4cf6ec9c387b20f533" datatype="html">
@@ -304,7 +305,7 @@
                     Any week under way is due to the end
                 </source>
                 <target>
-                    Toute semaine entamée dans l'appartement est dûe jusqu'à son terme
+                    Cualquier semana en curso se debe al final
                 </target>
             </trans-unit>
             <trans-unit id="732cafc07d8470090e67cde09cfc5636ba21838f" datatype="html">
@@ -316,12 +317,12 @@
                     If you don&apos;t have a printer, please call me and I&apos;ll send it to you
                 </source>
                 <target>
-                    Si vous souhaitez réserver, il vous suffit de remplir le <x id="START_LINK" ctype="x-a"/>formulaire en ligne<x id="CLOSE_LINK" ctype="x-a"/> 
-                    avec vos informations de contact.
-                    Veuillez télécharger ce formulaire pdf puis imprimez le et envoyez le nous par la poste signé.
-                    Votre réservation sera définitivement acceptée si vous joignez à ce formulaire le chèque d'accompte.
+                    Si desea reservar, simplemente llene el <x id="START_LINK" ctype="x-a"/>formulario en línea <x id="CLOSE_LINK" ctype="x-a"/>
+                    con su información de contacto.
+                    Por favor, descargue el formulario pdf y luego imprimirlo y enviarlo por correo a nosotros firmamos.
+                    Su reserva será aceptado definitivamente si se une para formar el depósito de cheques.
 
-                    Si vous n'avez pas d'imprimante, appelez nous et nous vous enverrons le formulaire.
+                    Si no tiene una impresora, llámenos y nosotros le enviará el formulario.
                 </target>
             </trans-unit>
         </body>

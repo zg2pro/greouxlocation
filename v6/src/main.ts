@@ -11,6 +11,9 @@ let loc = url.searchParams.get("locale");
 if (loc === undefined || loc === "" || loc === null) {
     loc = navigator['language'] || navigator['userLanguage'];
 }
+if (loc === "en-US" || loc === "en-GB") {
+    loc = "en";
+}
 document['locale'] = loc;
 
 if (environment.production) {
