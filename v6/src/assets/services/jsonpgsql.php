@@ -1,6 +1,6 @@
 <?php
 
-require_once '../resources/security/key.php';
+require_once '../security/key.php';
 
 function pgjson ($q){
     $dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=".BASE_PWD)

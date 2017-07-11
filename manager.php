@@ -60,7 +60,7 @@ Copiez collez le code de votre partenaire ici
 
 <?php
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 $query = 'SELECT * FROM bookings ORDER BY check_in';
 $result = pg_query($query) or die('Échec requête : ' . pg_last_error());
@@ -97,7 +97,7 @@ $categories = array( "Basse Saison"
                 );
 $k = 0;
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 $query = 'SELECT * FROM fares ORDER BY num';
 $result = pg_query($query) or die('Échec requête : ' . pg_last_error());
@@ -128,7 +128,7 @@ $categories = array( "Adresse"
                 );
 $k = 0;
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
     or die('Connexion impossible : ' . pg_last_error());
 $query = 'SELECT * FROM contacts ORDER BY type';
 $result = pg_query($query) or die('Échec requête : ' . pg_last_error());

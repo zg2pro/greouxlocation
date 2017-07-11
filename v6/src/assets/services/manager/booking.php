@@ -1,8 +1,8 @@
 <?php
 
-require_once 'dbPassword.php';
+require_once '../../security/key.php';
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=".BASE_PWD)
     or die('Connexion impossible : ' . pg_last_error());
 
 if($mode == cancel){

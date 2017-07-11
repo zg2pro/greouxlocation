@@ -1,9 +1,9 @@
 <?php
 
-require_once 'dbPassword.php';
-
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
-    or die('Connexion impossible : ' . pg_last_error());
+require_once '../../security/key.php';
+ 
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=" . BASE_PWD)
+        or die('Connexion impossible : ' . pg_last_error());
 
 $k = $_POST['chg'];
 $price = $_POST['value'];
@@ -11,10 +11,15 @@ $price = $_POST['value'];
 echo $k;
 echo $price;
 
-if ($k == 1) $query = "UPDATE fares SET value = $price WHERE category = 'basse'";
-else { if ($k == 2) $query = "UPDATE fares SET value = $price WHERE category = 'moyenne'";
-else {if ($k == 3) $query = "UPDATE fares SET value = $price WHERE category = 'haute'";
-else $query = "UPDATE fares SET value = $price WHERE category = 'Taxes_de_sejour'";}}
+if ($k == 1) {
+    $query = "UPDATE fares SET value = $price WHERE category = 'basse'";
+} else if ($k == 2) {
+    $query = "UPDATE fares SET value = $price WHERE category = 'moyenne'";
+} else if ($k == 3) {
+    $query = "UPDATE fares SET value = $price WHERE category = 'haute'";
+} else {
+    $query = "UPDATE fares SET value = $price WHERE category = 'Taxes_de_sejour'";
+}
 
 echo $query;
 
@@ -29,4 +34,5 @@ echo '<script language="Javascript">
 document.location.replace("manager.php");
 </script>';
 
+ 
 ?>

@@ -10,6 +10,7 @@
         <?php
         $month = date("n");
         $year = date("Y");
+        require_once 'dbPassword.php';
         ?>
 
     <center>
@@ -69,7 +70,7 @@
         <table>
             <!-- Ici les publicites sont insérees en PHP a partir d'une base de donnees et pas directement dans le code. -->
             <?php
-            $dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=uqbdzhp")
+            $dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password="+$dbPassword)
                     or die('Connexion impossible : ' . pg_last_error());
             $query = "SELECT * FROM advertisements WHERE shown = 'true'";
             $result = pg_query($query) or die('Échec requête : ' . pg_last_error());
