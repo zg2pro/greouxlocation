@@ -11,9 +11,10 @@
             <file>file:/C:/workspace/php/greouxlocation/v6/src/app/i18n.providers.ts</file>
         </group>
         <group name="workspace">
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/assets/services/manager/booking.php</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/app/home/home.component.css</file>
             <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/package.json</file>
-            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/assets/services/manager/manager.php</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/styles.css</file>
+            <file>file:/C:/Users/Gregory/workspace/greouxlocation/v6/src/app/home/bootstrap/carousel.component.html</file>
         </group>
     </open-files>
 </project-private>
