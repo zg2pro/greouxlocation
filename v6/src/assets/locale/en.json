@@ -7,10 +7,68 @@
         "equipment": "Equipment",
         "language": "Language"
     },
+    "footer": {
+        "email": "Email:",
+        "form": "Download the booking form",
+        "phone": "Phone:",
+        "landline": "landline:",
+        "mobile": "Mobile:",
+        "address": "Address:"
+    },
+    "home": {
+        "one": "Studio apartment with all comfort, a stone&apos;s throw from the thermal baths in Greoux-les-Bains (Provence, France)",
+        "two": "With Chaîne Thermale du Soleil, enjoy thermal baths steeped in history, where the calm you need for relaxing and recovering prevails. The staff is always nice and polite and pays close attention to the customers. It's clean and well maintained.",
+        "three": {
+            "one": "Are you looking for a studio to rent peer-to-peer ?",
+            "two": "For several years, 100% of our customers have been satifisfied of the place where we welcome you.",
+            "three": "Please feel free to contact us."
+        }
+    },
+    "greoux": {
+        "plane": "Plane",
+        "airport": "Marseille Airport is 78km away (48 miles).",
+        "train": "Train",
+        "railway": "Manosque railway station is 14km away (8.7 miles).",
+        "car": "Car",
+        "motorway": "If you are on motorway A7, exit at Senas, you can also come from motorway A51 and exit at Greoux or Manosque",
+        "canyon": "In the heart of the Verdon Canyon, the lake Sainte-croix is 23km away (14 miles)",
+        "aix": "Aix en Provence is 50km away (31 miles)"
+    },
     "fares": {
+        "title": "Fares:",
         "basse": "Low Season",
         "moyenne": "Mid Season (April to June)",
         "haute": "High Season (July to October)",
-        "Taxes_de_sejour": "Tourist tax"
+        "Taxes_de_sejour": "Tourist tax",
+        "discount": "Book 4 weeks and get a 10% discount.",
+        "checkin": "Check-in",
+        "checkout": "Check-out",
+        "availability": "Check Availability"
+    },
+    "equipment": {
+        "services": {
+            "title": "Services:",
+            "broom": "House cleaning will be done before your arrival",
+            "screen": "Flat screen television and DVD player",
+            "microwaves": "Microwaves and oven",
+            "sun": "A sunny balcony",
+            "elevators": "Elevators",
+            "parking": "Parking",
+            "supermarket": "Supermarket nearby"
+        },
+        "conditions": {
+            "title": "Conditions:",
+            "one": "When you book, you will be requested pay 25% of the total amount",
+            "two": "When arriving, we proceed together to an incoming inventory of fixtures. A 250€ cheque (or cash) will be required but will not be cashed and it will be returned to you when you leave if everything is all right.",
+            "three": "A tourist tax is collected by the town hall, per person and is an extra added to the fares we tell you.",
+            "four": "Our pet friends are not allowed in the residence",
+            "five": "Any week under way is due to the end",
+            "six": {
+                "one": "If you want to book, just fill in the ",
+                "two": "online form",
+                "three": "with your details. Please dowload the pdf form you will have to print it and send it to us printed and signed by the post. Your reservation will be definitely taken into account when you attach the cheque to the form.",
+                "four": "If you don't have a printer, please call me and I'll send it to you"
+            }
+        }
     }
 }

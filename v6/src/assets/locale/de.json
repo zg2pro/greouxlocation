@@ -7,10 +7,68 @@
         "equipment": "Ausrüstung",
         "language": "Sprache"
     },
+    "footer": {
+        "email": "E-mail:",
+        "form": "Buchungsformular",
+        "phone": "Telefon:",
+        "landline": "Festnetz:",
+        "mobile": "Mobil:",
+        "address": "Adresse:"
+    },
+    "home": {
+        "one": "Studio-Wohnung mit allem Komfort, ein Steinwurf von der Thermen in Gréoux-les-Bains (Provence, Frankreich)",
+        "two": "Mit Thermale du Soleil, genießen einen Whirlpool in der Geschichte, Wo die Ruhe brauchen Sie zum Entspannen und Erholen vorherrscht. das Personal ist immer nett und höflich und vorsichtig Land nahe an den Kunden. Das Hotel ist sauber und gut gepflegt.",
+        "three": {
+            "one": "Suchen Sie ein Studio-Peer-to-Peer zu mieten?",
+            "two": "Seit einigen Jahren 100% unserer Kunden-haben-erfüllt sind der Ort, wo wir Sie herzlich willkommen.",
+            "three": "Bitte zögern Sie nicht uns zu kontaktieren."
+        }
+    },
+    "greoux": {
+        "plane": "Jet",
+        "airport": "Der Marseille-Marignane Flughafen ist 78km.",
+        "train": "Zug",
+        "railway": "Der Manosque Bahnhof ist 14 km.",
+        "car": "Autos",
+        "motorway": "Wenn Sie auf der Autobahn A7, Ausfahrt Senas sind, Sie kommen von der Autobahn A51 bis zur Ausfahrt Manosque Gréoux ",
+        "canyon": "Im Herzen der Verdon-Schlucht, die See von St. Croix ist 23km entfernt ",
+        "aix": " Aix-en-Provence ist 50 km"
+    },
     "fares": {
+        "title": "Gebühren:",
         "basse": "Nebensaison",
         "moyenne": "Zwischensaison (April bis Juni)",
         "haute": "Hochsaison (Juli bis Oktober)",
-        "Taxes_de_sejour": "Kurtaxe"
+        "Taxes_de_sejour": "Kurtaxe",
+        "discount": "Buchen 4 aufeinander folgende Wochen und wir bieten Ihnen 10%.",
+        "checkin": "Einchecken",
+        "checkout": "Check-out",
+        "availability": "Prüfen Sie die Verfügbarkeit"
+    },
+    "equipment": {
+        "services": {
+            "title": "Dienstleistungen:",
+            "broom": "Hausreinigung wird vor Ihrer Ankunft erfolgen",
+            "screen": "Flachbild-Fernseher und DVD-Player",
+            "microwaves": "Mikrowellen und Ofen",
+            "sun": "Ein sonniger Balkon",
+            "elevators": "Aufzüge",
+            "parking": "Parken",
+            "supermarket": "Supermarkt in der Nähe"
+        },
+        "conditions": {
+            "title": "Anforderungen:",
+            "one": "Wenn Sie buchen, zahlen Sie 25% der Gesamtmenge angefordert werden",
+            "two": "Bei der Ankunft, gehen wir zusammen auf ein eingehendes festen Inventar. A 250 € check (oder in bar) erforderlich Auftrag wird nicht eingelöst werden, und es wird an Sie zurückgeschickt, wenn Sie verlassen, wenn alles in Ordnung ist.",
+            "three": "Die Kurtaxe ist Datei, die vom Rathaus Managed, pro Person und ist ein extra zu den Tarifen haben wir es Ihnen sagen.",
+            "four": "Unser Haustier Freunde sind nicht in der Residenz erlaubt",
+            "five": "Jede Woche begann in der Wohnung ist aufgrund Fertigstellung",
+            "six": {
+                "one": "Wenn Sie buchen möchten, füllen Sie einfach das ",
+                "two": "Online-Formular",
+                "three": "mit Ihren Angaben. Bitte laden das PDF-Formular Sie-haben, es zu drucken und an uns ausgedruckt und unterschrieben von der Post. Ihre Buchung wird auf jeden Fall berücksichtigt werden, wenn Sie die Prüfung auf das Formular anhängen.",
+                "four": "Wenn Sie keinen Drucker haben, rufen Sie uns an und wir werden Sie das Formular senden."
+            }
+        }
     }
 }

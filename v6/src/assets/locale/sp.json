@@ -7,10 +7,68 @@
         "equipment": "Equipo",
         "language": "Idioma"
     },
+    "footer": {
+        "email": "Email:",
+        "form": "Descargar el formulario de reserva",
+        "phone": "Teléfono:",
+        "landline": "Línea fija:",
+        "mobile": "Móvil:",
+        "address": "Dirección:"
+    },
+    "home": {
+        "one": "Estudio con todas las comodidades, a un tiro de piedra de los baños termales en Greoux-les-Bains (Provenza, Francia)",
+        "two": "Con Chaîne Thermale du Soleil, disfrute de baños termales llenos de historia, donde la calma que necesita para relajarse y recuperarse prevalece. El personal es siempre agradable y cortés y paga la atención cercana a los clientes. Está limpio y bien mantenido.",
+        "three": {
+            "one": "¿Está buscando un estudio para alquilar peer-to-peer?",
+            "two": "Desde hace varios años, el 100% de nuestros clientes han sido perfeccionados del lugar donde le damos la bienvenida.",
+            "three": "Siéntete libre de contactarnos."
+        }
+    },
+    "greoux": {
+        "plane": "Avión",
+        "airport": "El aeropuerto de Marsella-Marignane está a 78 km.",
+        "train": "Tren",
+        "railway": "La estación de Manosque está a 14 km.",
+        "car": "Coche",
+        "motorway": "Si usted está en la autopista A7, salir en Senas, también puede venir desde la autopista A51 y salir en Greoux o Manosque",
+        "canyon": "En el corazón del Cañón de Verdon, el lago Sainte-croix está a 23 km",
+        "aix": " Aix en Provence está a 50km"
+    },
     "fares": {
+        "title": "Tarifas:",
         "basse": "Temporada baja",
         "moyenne": "Temporada media (de abril a junio)",
         "haute": "Temporada alta (julio a octubre)",
-        "Taxes_de_sejour": "Impuesto turístico"
+        "Taxes_de_sejour": "Impuesto turístico",
+        "discount": "Reserve 4 semanas consécutives et nous vous offrons 10%.",
+        "checkin": "Del",
+        "checkout": "Al",
+        "availability": "Verificación de disponibilidad"
+    },
+    "equipment": {
+        "services": {
+            "title": "Servicios:",
+            "broom": "La limpieza de la casa se hará antes de su llegada",
+            "screen": "Televisión de pantalla plana y reproductor de DVD",
+            "microwaves": "Microondas y horno",
+            "sun": "Un balcón soleado",
+            "elevators": "Elevadores",
+            "parking": "Estacionamiento",
+            "supermarket": "Supermercado cercano"
+        },
+        "conditions": {
+            "title": "Condiciones:",
+            "one": "Al reservar, se le pedirá pagar el 25% del importe total",
+            "two": "Al llegar, procedemos juntos a un inventario entrante de los accesorios. Un cheque de 250 € (o efectivo) será requerido pero no será cobrado y será devuelto a usted cuando salga si todo está bien.",
+            "three": "Un impuesto turístico es cobrado por el ayuntamiento, por persona y es un extra añadido a las tarifas que le decimos.",
+            "four": "Nuestros amigos de mascotas no están permitidos en la residencia",
+            "five": "Cualquier semana en curso se debe al final",
+            "six": {
+                "one": "Si desea reservar, simplemente llene el ",
+                "two": "formulario en línea",
+                "three": "con su información de contacto. Por favor, descargue el formulario pdf y luego imprimirlo y enviarlo por correo a nosotros firmamos. Su reserva será aceptado definitivamente si se une para formar el depósito de cheques.",
+                "four": "Si no tiene una impresora, llámenos y nosotros le enviará el formulario."
+            }
+        }
     }
 }

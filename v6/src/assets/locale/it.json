@@ -7,10 +7,68 @@
         "equipment": "Attrezzatura",
         "language": "Lingua"
     },
+    "footer": {
+        "email": "E-mail:",
+        "form": "Scarica il modulo di prenotazione",
+        "phone": "Telefono:",
+        "landline": "Fisso:",
+        "mobile": "Mobile:",
+        "address": "Indirizzo:"
+    },
+    "home": {
+        "one": "Monolocale con tutti i comfort, a due passi dalla terme a Greoux-les-Bains (Provenza, Francia)",
+        "two": "Con Chaîne Thermale du Soleil, godere delle terme ricche di storia, dove la calma necessaria per il relax e il recupero prevalgono. Il personale e sempre gentile e cortese e presta particolare attenzione ai clienti. E pulito e ben mantenuto.",
+        "three": {
+            "one": "State cercando uno studio da affittare peer-to-peer?",
+            "two": "Per diversi anni, il 100% dei nostri clienti è stato satifisfied del luogo in cui vi diamo il benvenuto.",
+            "three": "Non esitate a contattarci."
+        }
+    },
+    "greoux": {
+        "plane": "Aereo",
+        "airport": "L'aeroporto di Marseille-Marignane e a 78 km.",
+        "train": "Treno",
+        "railway": "La stazione di Manosque e a 14 km.",
+        "car": "Machina",
+        "motorway": "Se siete sull'autostrada A7, uscire a Senas, si può anche arrivare dall'autostrada A51 e uscire a Greoux o Manosque",
+        "canyon": "Nel cuore del canyon di Verdon, il lago Sainte-croix si trova a 23 km di distanza",
+        "aix": " Aix en Provence si trova a 50 km di distanza"
+    },
     "fares": {
+        "title": "Tariffe:",
         "basse": "Bassa stagione",
         "moyenne": "Mezza stagione (Da aprile a giugno)",
         "haute": "Alta Stagione (da luglio a ottobre)",
-        "Taxes_de_sejour": "Tassa di soggiorno"
+        "Taxes_de_sejour": "Tassa di soggiorno",
+        "discount": "Prenota 4 settimane e ottenere uno sconto del 10%.",
+        "checkin": "Registrare",
+        "checkout": "Check-out",
+        "availability": "Verificare la disponibilità"
+    },
+    "equipment": {
+        "services": {
+            "title": "Servizi:",
+            "broom": "La pulizia della casa sarà effettuata prima dell'arrivo",
+            "screen": "TV a schermo piatto e lettore DVD",
+            "microwaves": "Microonde e forno",
+            "sun": "Un balcone soleggiato",
+            "elevators": "Ascensori",
+            "parking": "Parcheggio",
+            "supermarket": "Supermercato nelle vicinanze"
+        },
+        "conditions": {
+            "title": "Condizioni:",
+            "one": "Quando prenotate, ti verrà richiesto di pagare il 25% dell'importo totale",
+            "two": "Quando arrivi, procediamo insieme ad un inventario in entrata di fixtures. Verrà richiesto un assegno di 250 € (o contanti) ma non verrà pagato e ti verrà restituito quando andrai se tutto va bene.",
+            "three": "Una tassa turistica è raccolta dal municipio, a persona ed è un extra aggiunto alle tariffe che ti diciamo.",
+            "four": "I nostri amici d'animale non sono ammessi nella residenza",
+            "five": "Ogni settimana in corso è dovuta alla fine",
+            "six": {
+                "one": "Se vuoi prenotare, compila il ",
+                "two": "modulo online",
+                "three": "con i tuoi dati si prega di scaricare il modulo pdf che dovrai stampare e inviarlo a noi stampato e firmato dal post. La tua prenotazione sarà sicuramente presa in considerazione quando si collega il controllo al modulo.",
+                "four": "Se non hai una stampante, ti preghiamo di chiamarmi e ti invierò"
+            }
+        }
     }
 }
