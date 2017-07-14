@@ -9,8 +9,8 @@
     "devtime": "cli-timer on",
     "ng": "ng",
     "start": "ng serve",
-    "build:dev": "ng build --base-href /edsa-greouxlocation/v6/dist/ && npm run devtime",
-    "build:prod": "ng build --prod --base-href /v6/ && npm run devtime",
+    "build:dev": "ng build --base-href /edsa-greouxlocation/dist/ && npm run devtime",
+    "build:prod": "ng build --prod --base-href / && npm run devtime",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
