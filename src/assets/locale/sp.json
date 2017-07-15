@@ -16,11 +16,11 @@
         "address": "Dirección:"
     },
     "home": {
-        "one": "Estudio con todas las comodidades, a un tiro de piedra de los baños termales en Greoux-les-Bains (Provenza, Francia)",
-        "two": "Con Chaîne Thermale du Soleil, disfrute de baños termales llenos de historia, donde la calma que necesita para relajarse y recuperarse prevalece. El personal es siempre agradable y cortés y paga la atención cercana a los clientes. Está limpio y bien mantenido.",
+        "one": "Estudio cómodo, a 700 metros de los baños termales de Gréoux les Bains. (Provenza, Francia)",
+        "two": "Con los Thermale du Soleil experiencia en vivo baños entintados en la historia, donde reina la tranquilidad que necesita para relajarse. Los clientes están muy satisfechos con el profesionalismo del personal del spa.",
         "three": {
             "one": "¿Está buscando un estudio para alquilar peer-to-peer?",
-            "two": "Desde hace varios años, el 100% de nuestros clientes han sido perfeccionados del lugar donde le damos la bienvenida.",
+            "two": "Nuestro estudio está equipado para recibir en las mejores condiciones.",
             "three": "Siéntete libre de contactarnos."
         }
     },
@@ -54,13 +54,14 @@
             "sun": "Un balcón soleado",
             "elevators": "Elevadores",
             "parking": "Estacionamiento",
-            "supermarket": "Supermercado cercano"
+            "supermarket": "Supermercado cercano",
+            "shuttle": "Parada en el pie de la residencia con servicio de transporte gratuito a los términos"
         },
         "conditions": {
             "title": "Condiciones:",
             "one": "Al reservar, se le pedirá pagar el 25% del importe total",
-            "two": "Al llegar, procedemos juntos a un inventario entrante de los accesorios. Un cheque de 250 € (o efectivo) será requerido pero no será cobrado y será devuelto a usted cuando salga si todo está bien.",
-            "three": "Un impuesto turístico es cobrado por el ayuntamiento, por persona y es un extra añadido a las tarifas que le decimos.",
+            "two": "Al llegar, procedemos juntos a un inventario entrante de los accesorios. Un cheque de 200 € (o efectivo) será requerido pero no será cobrado y que será devuelta a la condición de los accesorios.",
+            "three": "El apartamento es para que sea limpio",
             "four": "Nuestros amigos de mascotas no están permitidos en la residencia",
             "five": "Cualquier semana en curso se debe al final",
             "six": {

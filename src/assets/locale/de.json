@@ -16,11 +16,11 @@
         "address": "Adresse:"
     },
     "home": {
-        "one": "Studio-Wohnung mit allem Komfort, ein Steinwurf von der Thermen in Gréoux-les-Bains (Provence, Frankreich)",
-        "two": "Mit Thermale du Soleil, genießen einen Whirlpool in der Geschichte, Wo die Ruhe brauchen Sie zum Entspannen und Erholen vorherrscht. das Personal ist immer nett und höflich und vorsichtig Land nahe an den Kunden. Das Hotel ist sauber und gut gepflegt.",
+        "one": "Komfortables Studio, nur 700 Meter von den Thermen von Gréoux les Bains.",
+        "two": "Mit den Thermale du Soleil Live-Erlebnisbäder in der Geschichte getränkt, wo herrscht die Ruhe zum Entspannen brauchen. Die Gäste sind sehr zufrieden mit der Professionalität des Spa-Personal.",
         "three": {
             "one": "Suchen Sie ein Studio-Peer-to-Peer zu mieten?",
-            "two": "Seit einigen Jahren 100% unserer Kunden-haben-erfüllt sind der Ort, wo wir Sie herzlich willkommen.",
+            "two": "Unser Studio ist ausgestattet, um Sie in den besten Bedingungen zu erhalten.",
             "three": "Bitte zögern Sie nicht uns zu kontaktieren."
         }
     },
@@ -54,13 +54,14 @@
             "sun": "Ein sonniger Balkon",
             "elevators": "Aufzüge",
             "parking": "Parken",
-            "supermarket": "Supermarkt in der Nähe"
+            "supermarket": "Supermarkt in der Nähe",
+            "shuttle": "Halten Sie am Fuß der Residenz mit einem kostenlosen Shuttle zu den Bedingungen"
         },
         "conditions": {
             "title": "Anforderungen:",
             "one": "Wenn Sie buchen, zahlen Sie 25% der Gesamtmenge angefordert werden",
-            "two": "Bei der Ankunft, gehen wir zusammen auf ein eingehendes festen Inventar. A 250 € check (oder in bar) erforderlich Auftrag wird nicht eingelöst werden, und es wird an Sie zurückgeschickt, wenn Sie verlassen, wenn alles in Ordnung ist.",
-            "three": "Die Kurtaxe ist Datei, die vom Rathaus Managed, pro Person und ist ein extra zu den Tarifen haben wir es Ihnen sagen.",
+            "two": "Bei der Ankunft, gehen wir zusammen auf ein eingehendes festen Inventar. A 200 € check (oder in bar) erforderlich Auftrag wird nicht eingelöst werden, Sie werden auf den Zustand der Vorrichtungen zurückgeführt werden.",
+            "three": "Die Wohnung ist, um es sauber",
             "four": "Unser Haustier Freunde sind nicht in der Residenz erlaubt",
             "five": "Jede Woche begann in der Wohnung ist aufgrund Fertigstellung",
             "six": {

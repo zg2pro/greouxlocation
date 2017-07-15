@@ -7,7 +7,7 @@
             <tbody>
                 <tr>
                     <td *ngFor="let faresItem of fares">
-                        <table class="equal-width" border="2">
+                        <table class="equal-width" border="2" *ngIf="faresItem.category !== 'Taxes_de_sejour'">
                             <tr>
                                 <td class="category-td">
                                     {{"fares."+faresItem.category | translate}}

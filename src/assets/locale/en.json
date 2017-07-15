@@ -16,11 +16,11 @@
         "address": "Address:"
     },
     "home": {
-        "one": "Studio apartment with all comfort, at a stone's throw from the thermal baths in Greoux-les-Bains (Provence, France)",
-        "two": "With Chaîne Thermale du Soleil, enjoy thermal baths steeped in history, where the calm you need for relaxing and recovering prevails. The staff is always nice and polite and pays close attention to the customers. It's clean and well maintained.",
+        "one": "Comfortable studio apartment, 700 meters (2300 feet) from the Thermes of Gréoux les Bains. (Provence, France)",
+        "two": "With Chaîne Thermale du Soleil, enjoy thermal baths steeped in history, where the calm you need for relaxing and recovering prevails. The curists are very satisfied with the professionalism of the staff of the thermal baths.",
         "three": {
             "one": "Are you looking for a studio to rent peer-to-peer ?",
-            "two": "For several years, 100% of our customers have been satifisfied of the place where we welcome you.",
+            "two": "Our studio is equipped to receive you in the best conditions.",
             "three": "Please feel free to contact us."
         }
     },
@@ -54,13 +54,14 @@
             "sun": "A sunny balcony",
             "elevators": "Elevators",
             "parking": "Parking",
-            "supermarket": "Supermarket nearby"
+            "supermarket": "Supermarket nearby",
+            "shuttle": "Stop at the foot of the residence of a free shuttle for the termal baths"
         },
         "conditions": {
             "title": "Conditions:",
             "one": "When you book, you will be requested pay 25% of the total amount",
-            "two": "When arriving, we proceed together to an incoming inventory of fixtures. A 250€ cheque (or cash) will be required but will not be cashed and it will be returned to you when you leave if everything is all right.",
-            "three": "A tourist tax is collected by the town hall, per person and is an extra added to the fares we tell you.",
+            "two": "When arriving, we proceed together to an incoming inventory of fixtures. A 200€ cheque (or cash) will be required but will not be cashed and it will be returned to you when proceeding to the exit inventory.",
+            "three": "The apartment must be kept clean",
             "four": "Our pet friends are not allowed in the residence",
             "five": "Any week under way is due to the end",
             "six": {

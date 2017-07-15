@@ -30,6 +30,9 @@ small icons :
 .fugue-car { 
 	background-image: url(/assets/img/equipment/car.png) !important; 
 }
+.fugue-train { 
+	background-image: url(/assets/img/equipment/train.png) !important; 
+}
 .fugue-cookies { 
 	background-image: url(/assets/img/equipment/cookies.png) !important; 
 }
