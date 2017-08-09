@@ -1,7 +1,7 @@
 consult it online at http://greouxlocation.free.fr
 
 
-# V6
+# Version 4 of the website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
