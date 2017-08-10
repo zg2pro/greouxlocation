@@ -12,4 +12,4 @@ env:
     - "FTP_USER=greouxlocation"
     - secure: EqK15DgXauNBICipIQcDCJl6IoUWNlEwW8gpludX7guKxsX39NQ95yKszPDx6TkWd9FAOqwNYNQh6zA60t2zLAkhXojLmuXi65bW117/kknyBnPER/dYf58nROrCf1McnFcjo9WZe3nMBUugi01VGUiP7PrupRFIWdw10NrHriZadXJYQH593kWh4iTER7bhx4liPotA8MH0I41XxsbcvK+9coJMUtqxHEDdD6I1f6sGK7XGpfM2jxWMfSmArtPZKQRNEImofkyurQwkysASauq9N4CmJs3oFlDhVscg5W7AmImcfAU+zjwjt/BQqMcguY7MszSqYS39fBLEIuN2PqNbMHfr/y5qeh6xEa/Gx8HX30DBBcXmzAr/z9ovD24CJxTjqDUN+me6WFsB6uFBsFz9BZ1sYHTbGIuFdKNpVVBLSPBl4aO4HUJEoikOLT1WBl6jHQRPryccSqu8WyNft5nAKpNYrljrAM3Vp/fM4npQeLbMo+pXPpWo7DeQMRnyEAiNFycEpP+fJenfnsP7b5lv3eeg3oIaICwUZE6HZMgp1MmMn7HdaxBYkcDMezkyWUKdbomphA0RfHbhpOJpmIEy7O6zELsob5wIfNKLiNhNo5IQnBhs1kjWHRv5McvxigZkMMlN9wqx55lirZWhodYSBek7ZzX7iP2uIP8F/8g=
 after_success:
-- npm run travis:deploy -- FTP-USER $FTP_USER -- FTP-PWD $GREOUXLOCATION_FTP_PWD -- FTP-HOST "ftp://ftpperso.free.fr"
+- find dist -type f -exec curl -u $FTP_USER:$GREOUXLOCATION_FTP_PWD --ftp-create-dirs -T {} ftp://ftpperso.free.fr/{} \;
