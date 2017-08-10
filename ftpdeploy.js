@@ -58,9 +58,9 @@ function uploadToFTP() {
     });
 }
 function getConfiguration() {
-    var ftpUser = nodeArg("--FTP-USER");
-    var ftpPwd = nodeArg("--FTP-PWD");
-    var ftpHost = nodeArg("--FTP-HOST");
+    var ftpUser = nodeArg("FTP-USER");
+    var ftpPwd = nodeArg("FTP-PWD");
+    var ftpHost = nodeArg("FTP-HOST");
     return {
         host: ftpHost,
         port: 21,
