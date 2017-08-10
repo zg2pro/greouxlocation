@@ -45,9 +45,18 @@ and now you should have your ts fully recognized with auto-completion of code an
 
 - in your test browser, open F12, and go to settings, then disable cache, with cache you would not be able to see your changes between deployments.
 
+# Continuous integration
 
-In a next version?
-------------------
+This project is integrated through Travis-CI (see badges for continuous results of build and deployment)
+for FTP deployment, did:
+- install ruby for windows
+- run gem install travis
+- created .travis.yml file with language header
+- run travis encrypt GREOUXLOCATION_FTP_PWD="xxx" --add
+- finished .travis.yml file as it is now
+
+
+# In a next version?
 - reservation online? check availability. calendar?
 - site administration by gDocs
 - several payment solutions (cheque and emv cards)
