@@ -51,9 +51,3 @@ for FTP deployment, did:
 - created .travis.yml file with language header
 - run travis encrypt GREOUXLOCATION_FTP_PWD="xxx" --add
 - finished .travis.yml file as it is now
-
-
-# In a next version?
-- reservation online? check availability. calendar?
-- site administration by gDocs
-- several payment solutions (cheque and emv cards)
