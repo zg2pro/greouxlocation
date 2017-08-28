@@ -1,5 +1,6 @@
 [![Build](https://travis-ci.org/zg2pro/greouxlocation.svg?branch=master)](https://travis-ci.org/zg2pro/greouxlocation)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/zg2pro/greouxlocation?branch=master)](https://bettercodehub.com/)
+
 
 consult it online at http://greouxlocation.free.fr
 
