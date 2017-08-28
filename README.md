@@ -1,4 +1,3 @@
-[![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zg2pro/greouxlocation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build](https://travis-ci.org/zg2pro/greouxlocation.svg?branch=master)](https://travis-ci.org/zg2pro/greouxlocation)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
@@ -52,9 +51,3 @@ for FTP deployment, did:
 - created .travis.yml file with language header
 - run travis encrypt GREOUXLOCATION_FTP_PWD="xxx" --add
 - finished .travis.yml file as it is now
-
-
-# In a next version?
-- reservation online? check availability. calendar?
-- site administration by gDocs
-- several payment solutions (cheque and emv cards)
