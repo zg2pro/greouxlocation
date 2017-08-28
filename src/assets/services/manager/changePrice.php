@@ -1,7 +1,7 @@
 <?php
 
 require_once '../../security/key.php';
- 
+
 $dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=" . BASE_PWD)
         or die('Connexion impossible : ' . pg_last_error());
 
@@ -23,16 +23,12 @@ if ($k == 1) {
 
 echo $query;
 
-$result = pg_query($query) or die('Échec requête : ' . pg_last_error());
+$resultUpdateFares = pg_query($query) or die('Échec requête : ' . pg_last_error());
 
 echo "OPERATION EFFECTUEE : changement de prix enregistre";
 
-$line = pg_fetch_assoc($result);
-pg_free_result($result);
+$line = pg_fetch_assoc($resultUpdateFares);
+pg_free_result($resultUpdateFares);
 pg_close($dbconn);
-echo '<script language="Javascript">
-document.location.replace("manager.php");
-</script>';
-
- 
+echo '<script>document.location.replace("manager.php");</script>';
 ?>

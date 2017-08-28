@@ -29,7 +29,5 @@ $line = pg_fetch_assoc($result);
 pg_free_result($result);
 pg_close($dbconn);
 
-echo '<script language="Javascript">
-document.location.replace("manager.php");
-</script>';
+echo '<script language="text/javascript">document.location.replace("manager.php");</script>';
 ?>

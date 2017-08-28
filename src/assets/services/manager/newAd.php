@@ -7,8 +7,8 @@ $ad = $_POST['textarea'];
 
 $ad = utf8_encode($ad);
 
-$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=".BASE_PWD)
-    or die('Connexion impossible : ' . pg_last_error());
+$dbconn = pg_connect("host=localhost dbname=greouxlocation user=greouxlocation password=" . BASE_PWD)
+        or die('Connexion impossible : ' . pg_last_error());
 
 $query = "INSERT INTO advertisements (description, link, shown) VALUES ('$name', '$ad', true)";
 $result = pg_query($query) or die('Échec requête : ' . pg_last_error());
