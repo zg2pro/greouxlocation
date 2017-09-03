@@ -42,3 +42,6 @@ testem.log
 Thumbs.db
 /node_modules
 /nbproject
+/src/assets/security/key.php
+/src/assets/security/oauth.client.ids.json
+/src/assets/security/service.account.key.json
