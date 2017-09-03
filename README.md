@@ -9,6 +9,10 @@ consult it online at http://greouxlocation.free.fr
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
+This project is actually very old as I **released it on "free pages perso" for the first time in 2005**. At that time I had
+no knowledge of version control software and that"s why I'm keeping the old versions in zip archives.
+
+Version 4, the typescript/angular version, was made in 2017.
 
 # greouxlocation
 
