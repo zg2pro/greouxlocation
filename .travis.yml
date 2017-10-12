@@ -11,11 +11,14 @@ install:
 - npm install
 script:
 - npm run clean && npm run build:prod
-deploy:
+after_success:
 - cd dist
 - mkdir assets/security
 - echo "<?php define('BASE_PWD', '$GREOUXLOCATION_FTP_PWD'); ?>" > assets/security/key.php
 - find * -type f -exec curl -u $FTP_USER:$GREOUXLOCATION_FTP_PWD --ftp-create-dirs -T {} ftp://ftpperso.free.fr/{} \;
 - cd ..
-after_deploy:
+after_script:
+- npm install -g protractor
+- webdriver-manager update
+- webdriver-manager start &
 - npm run deploy:check
