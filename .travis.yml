@@ -14,6 +14,6 @@ before_install:
 install:
 - npm install
 script:
-- travis/build.sh
-- travis/deploy.sh
+#- travis/build.sh
+#- travis/deploy.sh
 - travis/verify.sh
