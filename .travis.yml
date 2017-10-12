@@ -17,8 +17,13 @@ after_success:
 - echo "<?php define('BASE_PWD', '$GREOUXLOCATION_FTP_PWD'); ?>" > assets/security/key.php
 - find * -type f -exec curl -u $FTP_USER:$GREOUXLOCATION_FTP_PWD --ftp-create-dirs -T {} ftp://ftpperso.free.fr/{} \;
 - cd ..
+deploy:
+  skip_cleanup: true
 after_script:
 - npm install -g protractor
 - webdriver-manager update
 - webdriver-manager start &
+- sleep 5
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
 - npm run deploy:check
