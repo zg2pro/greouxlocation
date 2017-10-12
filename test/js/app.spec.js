@@ -7,9 +7,7 @@ describe('app.js spec', function () {
     describe('when app is deployed', function () {
         it('should be able to check whats installed', function () {
             browser.get('http://greouxlocation.free.fr');
-            browser.wait(function () {
-                expect(browser.getTitle()).toEqual('Apartment Renting');
-            }, 50000);
+            expect(browser.getTitle()).toEqual('Apartment Renting');
         });
     });
 
