@@ -13,13 +13,12 @@ env:
 #- npm run clean && npm run build:prod
 stages:
   - compile
-  - name: deploy
+#  - deploy
 compile:
   - npm run clean && npm run build:prod
-deploy:
-  - cd dist
-  - mkdir assets/security
-  - echo "<?php define('BASE_PWD', '$GREOUXLOCATION_FTP_PWD'); ?>" > assets/security/key.php
-  - find * -type f -exec curl -u $FTP_USER:$GREOUXLOCATION_FTP_PWD --ftp-create-dirs -T {} ftp://ftpperso.free.fr/{} \;
-  - cd ..
-  
+#deploy:
+#  - cd dist
+#  - mkdir assets/security
+#  - echo "<?php define('BASE_PWD', '$GREOUXLOCATION_FTP_PWD'); ?>" > assets/security/key.php
+#  - find * -type f -exec curl -u $FTP_USER:$GREOUXLOCATION_FTP_PWD --ftp-create-dirs -T {} ftp://ftpperso.free.fr/{} \;
+#  - cd ..
