@@ -11,9 +11,8 @@ before_install:
 install:
 - npm install
 script:
-- pwd
-- ls
-- ls travis
+- ls -l travis
+- chmod o+x travis/build.sh
 - travis/build.sh
 after_success:
 - cd dist
@@ -22,10 +21,15 @@ after_success:
 - find * -type f -exec curl -u $FTP_USER:$GREOUXLOCATION_FTP_PWD --ftp-create-dirs -T {} ftp://ftpperso.free.fr/{} \;
 - cd ..
 after_script:
+- set -xe
+- wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+- echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list
+- apt-get update -yqqq
+- apt-get install -y google-chrome-stable
 - npm install -g protractor
 - webdriver-manager update
 - webdriver-manager start &
-- sleep 5
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
+- sleep 5
 - npm run deploy:check
