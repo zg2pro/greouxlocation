@@ -13,7 +13,7 @@ env:
 #- npm run clean && npm run build:prod
 stages:
   - compile
-  - deploy
+  - name: deploy
 compile:
   - npm run clean && npm run build:prod
 deploy:
