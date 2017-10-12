@@ -14,6 +14,8 @@ before_install:
 install:
 - npm install
 script:
-#- travis/build.sh
-#- travis/deploy.sh
-- travis/verify.sh
+- travis/build.sh
+- travis/deploy.sh
+#could not make it work on TravisCI... yet works locally (ScriptTimeoutError: asynchronous script timeout: result was not received in 60 seconds)
+#should try it with ff ?
+#- travis/verify.sh
