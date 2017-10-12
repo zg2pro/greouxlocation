@@ -1,10 +1,14 @@
 describe('app.js spec', function () {
 
-    describe('when view is constructing', function () {
-        it('should exist', function () {
-            expect(view).toBeDefined();
-        });
+    beforeEach(function () {
+        jasmine.DEFAULT_TIMEOUT_INTERVAL = 60000;
     });
 
+    describe('when app is deployed', function () {
+        it('should be able to check whats installed', function () {
+            browser.get('http://greouxlocation.free.fr');
+            expect(browser.getTitle()).toEqual('Apartment Renting');
+        });
+    });
 
 });

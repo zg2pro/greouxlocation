@@ -14,7 +14,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build:dev": "ng build --base-href /edsa-greouxlocation/dist/ && npm run devtime",
-    "build:prod": "ng build --env=prod --base-href / && npm run devtime"
+    "build:prod": "ng build --env=prod --base-href / && npm run devtime",
+    "deploy:check": "protractor protractor.conf.js"
   },
   "private": true,
   "dependencies": {
@@ -51,6 +52,7 @@
     "@types/node": "6.0.60",
     "cli-timer": "0.0.1",
     "codelyzer": "3.0.1",
+    "protractor": "^5.1.2",
     "rimraf": "2.6.1",
     "travis-cli": "1.0.9",
     "ts-node": "3.0.4",
