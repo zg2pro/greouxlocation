@@ -46,13 +46,13 @@
     "zone.js": "0.8.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.2.0",
+    "@angular/cli": "1.7.4",
     "@angular/compiler-cli": "4.2.3",
     "@angular/language-service": "4.2.3",
     "@types/node": "6.0.60",
     "cli-timer": "0.0.1",
     "codelyzer": "3.0.1",
-    "protractor": "^5.1.2",
+    "protractor": "5.3.1",
     "rimraf": "2.6.1",
     "travis-cli": "1.0.9",
     "ts-node": "3.0.4",
