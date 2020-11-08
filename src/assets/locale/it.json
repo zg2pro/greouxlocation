@@ -24,6 +24,9 @@
             "three": "Non esitate a contattarci."
         }
     },
+    "gdpr": {
+        "disclaimer": "Questo sito web non raccoglie dati personali, né utilizza cookie. Per quanto riguarda tutte le email che potresti avermi inviato, le distruggerò su semplice richiesta."
+    },
     "greoux": {
         "plane": "Aereo",
         "airport": "L'aeroporto di Marseille-Marignane e a 78 km.",
