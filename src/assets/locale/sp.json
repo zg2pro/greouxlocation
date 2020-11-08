@@ -24,6 +24,9 @@
             "three": "Siéntete libre de contactarnos."
         }
     },
+    "gdpr":{
+      "disclaimer": "Este sitio web no recopila ningún dato personal ni utiliza cookies. En cuanto a todos los correos electrónicos que me haya enviado, los destruiré por simple solicitud."
+    },
     "greoux": {
         "plane": "Avión",
         "airport": "El aeropuerto de Marsella-Marignane está a 78 km.",
