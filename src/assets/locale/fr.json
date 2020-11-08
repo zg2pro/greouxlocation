@@ -24,6 +24,9 @@
             "three": "N'hésitez pas à faire appel à nous."
         }
     },
+    "gdpr": {
+        "disclaimer": "Ce site Web ne collecte aucune donnée personnelle et n'utilise aucun cookie. Concernant tous les emails que vous m'avez peut-être envoyés, je les détruirai sur simple demande."
+    },
     "greoux": {
         "plane": "Avion",
         "airport": "L'aéroport de Marseille-Marignane est à 78km.",
