@@ -24,6 +24,9 @@
             "three": "Please feel free to contact us."
         }
     },
+    "gdpr": {
+        "disclaimer": "This website doesn't collect any personal data, nor uses any cookies. Regarding all the emails you may have sent me, I will destroy them on simple request."
+    },
     "greoux": {
         "plane": "Plane",
         "airport": "Marseille Airport is 78km away (48 miles).",
