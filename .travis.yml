@@ -2,19 +2,15 @@ language: node_js
 addons:
   chrome: stable
 node_js:
-- "10"
+- '10'
 env:
   global:
-    - "FTP_USER=greouxlocation"
-    - secure: EqK15DgXauNBICipIQcDCJl6IoUWNlEwW8gpludX7guKxsX39NQ95yKszPDx6TkWd9FAOqwNYNQh6zA60t2zLAkhXojLmuXi65bW117/kknyBnPER/dYf58nROrCf1McnFcjo9WZe3nMBUugi01VGUiP7PrupRFIWdw10NrHriZadXJYQH593kWh4iTER7bhx4liPotA8MH0I41XxsbcvK+9coJMUtqxHEDdD6I1f6sGK7XGpfM2jxWMfSmArtPZKQRNEImofkyurQwkysASauq9N4CmJs3oFlDhVscg5W7AmImcfAU+zjwjt/BQqMcguY7MszSqYS39fBLEIuN2PqNbMHfr/y5qeh6xEa/Gx8HX30DBBcXmzAr/z9ovD24CJxTjqDUN+me6WFsB6uFBsFz9BZ1sYHTbGIuFdKNpVVBLSPBl4aO4HUJEoikOLT1WBl6jHQRPryccSqu8WyNft5nAKpNYrljrAM3Vp/fM4npQeLbMo+pXPpWo7DeQMRnyEAiNFycEpP+fJenfnsP7b5lv3eeg3oIaICwUZE6HZMgp1MmMn7HdaxBYkcDMezkyWUKdbomphA0RfHbhpOJpmIEy7O6zELsob5wIfNKLiNhNo5IQnBhs1kjWHRv5McvxigZkMMlN9wqx55lirZWhodYSBek7ZzX7iP2uIP8F/8g=
+  - FTP_USER=unaux_27579723
+  - secure: A5rtObvZM6weKySWybZunFfy3f0u8ShljN4EKg138qIBOsOYakDXkut5sBIRXxtdenqIik0DfBCw1qRcOCjAW5ol7F9Wu2SEJvL7811Eud50Gteiv5as1wQNl9v9db+agM0xZpIrZfXvQaodObQOAyD6x3kaTjKjVOfbTuiXGAjHaqpbfipirdP8TpKsPkrjvs5IKWEowmQoO0t6NvcB5YhLlUvz4Mz6af8RzZFMNDP90iBzQw8GivBYMUt0Y2mNsk8eMeJMkhqauLMAjJki48R9zDB3QxPMtMC3XdtSg293FMef8/CAr2wKa6vi/mpoYIhJ9qpvPCHZsyatm/h0alt8Mhk1B5NZbSyRPpgyrmmX4RSyfJTAb7Yy4QvUQa+JcVFfg5GjK/Bq/Azui2dhm/jSoAe/OHyuHDuHtn8syNpZJj9jwTZPiBMfuxndyhfeJ2QCUbF8in65G8sBESGxfQ4DP3/AcRDigfRp3WZcsz5szP5gxuVSdaTDHs/ikDmtcZd6OwKnjA15Z9zGkcKZgdwO9p6/VMqi58Cp1wHfWdi0Zj4gN+s+iNM9iVyLizugjt1b70ie1pEARWtnCSXTdzVoDur2p/uFBD4oGljsLOAtA1npOzk2/G8SPuUiKfMFsLMVC+G+6coClS/oinbAaHBfA0jsB9NWT0PvngDFucg=
 before_install:
 - chmod u+x travis/*
-#- npm i -g npm@8.9
 install:
 - npm install
 script:
 - travis/build.sh
 - travis/deploy.sh
-#could not make it work on TravisCI... yet works locally (ScriptTimeoutError: asynchronous script timeout: result was not received in 60 seconds)
-#should try it with ff ?
-#- travis/verify.sh
