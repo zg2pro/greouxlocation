@@ -46,6 +46,7 @@ and now you should have your ts fully recognized with auto-completion of code an
 
 - in your test browser, open F12, and go to settings, then disable cache, with cache you would not be able to see your changes between deployments.
 
+
 # Continuous integration
 
 This project is integrated through Travis-CI (see badges for continuous results of build and deployment)
