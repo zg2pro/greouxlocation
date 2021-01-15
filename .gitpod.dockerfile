@@ -4,6 +4,6 @@ RUN sudo apt-get update
 
 #RUN npm install travis-cli -g
 
-RUN sudo apt install ruby ruby-dev -y
+RUN sudo apt install ruby ruby-dev libffi-dev make gcc -y
 
 RUN sudo gem install travis
