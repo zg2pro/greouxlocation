@@ -3,14 +3,19 @@ addons:
   chrome: stable
 node_js:
 - '10'
-env:
-  global:
-  - FTP_USER=unaux_27579723
-  - secure: C7SsYZT7BJpoOxTdEbjbM6Yceg+iu4T80FRXZnoIzbjAFrUPL6FqowgQxqRqKAafV2AZQxQKLb5cbvlPKS8rAkJsuP5mIZKzsduqWc9gJIH5W+cfC3KJS2x+30W9s5OGbq0nTh3q/4cGB38Q6QJa1UcpxJ+lsN0MRcvazGREXVpKD1kFuNJIGROwaGPk9XaCbOQQRBLgyGD3C6nLG6e4lTgmjdPpumSwsChPur563rKrloENCgcbyDE1tNXJfK/VKR08hl5a7Jnw4jb628N2IpQn6/23b1h+rq46oX8PIZgfpQYKsIdVz3RPBXdquJ0FpzHXfXYjCp6CPa+v/+PrCaScD6cj/YIa62/F1S0UMPVqe5kJMx/6FgKO/B9vplU3UrqDG/bW1vz6FmFtIXHXuMD7g7xoWhuF1qe/7Qc6O/AG88fMrhOvDV9bJXkuwnU+WSUoXON+R6hQFF/Sy1uW/uhA5C9wZbfzzXp8AvWfN2QfWyQO878PXqUprMSXOlwqbAUWFAxf5SlZO+NURQoWkFLCViMxxAA8V1qTkBmDE8XNpIGNxpjz923vlDMj2EaZww7g+Qx33ai9TY0prwPItr/2PdvhugIfNoi/sqqwRTu73JQ6n30Wnzh25pFIRR+2CumnuQCFgNtZi5XdWc7fNaKoHbSsdsIdenciE6Oq3DU=
-before_install:
-- chmod u+x travis/*
 install:
 - npm install
 script:
-- travis/build.sh
-- travis/deploy.sh
+- npm run clean && npm run build:prod
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $TRAVIS_SECRET_KEY
+  target_branch: gh-pages
+  local_dir: dist/
+  on:
+    branch: try-gh-pages-deploy
+branches:
+  only:
+  - gh-pages
+  - /.*/
