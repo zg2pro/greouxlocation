@@ -1,8 +1,8 @@
-[![Build](https://travis-ci.org/zg2pro/greouxlocation.svg?branch=master)](https://travis-ci.org/zg2pro/greouxlocation)
+[![Build](https://travis-ci.com/zg2pro/greouxlocation.svg?branch=master)](https://travis-ci.com/zg2pro/greouxlocation)
 [![BCH compliance](https://bettercodehub.com/edge/badge/zg2pro/greouxlocation?branch=master)](https://bettercodehub.com/)
 
 
-consult it online at http://greouxlocation.free.fr
+consult it online at https://zg2pro.github.io/greouxlocation
 
 
 # Version 4 of the website
@@ -54,5 +54,3 @@ for FTP deployment, did:
 - install ruby for windows
 - run gem install travis
 - created .travis.yml file with language header
-- run travis encrypt GREOUXLOCATION_FTP_PWD="xxx" --add
-- finished .travis.yml file as it is now
