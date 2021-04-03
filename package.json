@@ -15,6 +15,7 @@
     "start": "ng serve",
     "build:dev": "ng build --base-href /edsa-greouxlocation/dist/ && npm run devtime",
     "build:prod": "ng build --env=prod --base-href / && npm run devtime",
+    "build:prod-with-context": "ng build --env=prod --base-href /greouxlocation/ && npm run devtime",
     "deploy:check": "protractor protractor.conf.js"
   },
   "private": true,
