@@ -4,7 +4,6 @@ import {FormsModule} from '@angular/forms';
 import {JsonpModule, HttpModule, Http} from "@angular/http";
 import {RouterModule} from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {Configuration} from './app.rest.configuration';
 import {AppAnalytics} from './app.analytics';
 import {NavbarModule} from './navbar/navbar.module';
 import {FootModule} from './foot/foot.module';
@@ -30,12 +29,12 @@ export function HttpLoaderFactory(http: Http) {
             useFactory: HttpLoaderFactory,
             deps: [Http]
           }
-        }), FormsModule, JsonpModule,  
-        NavbarModule, FootModule, HomeModule, 
+        }), FormsModule, JsonpModule,
+        NavbarModule, FootModule, HomeModule,
         GreouxModule, VisitModule, FaresModule, EquipmentModule,
         RouterModule.forRoot([]), NgbModule.forRoot()],
     declarations: [AppComponent],
-    providers: [Configuration, AppAnalytics],
+    providers: [ AppAnalytics],
     bootstrap: [AppComponent]
 })
 export class AppModule {
