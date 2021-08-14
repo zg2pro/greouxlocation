@@ -1,0 +1,41 @@
+.navbar-toggler {
+    border: solid 1px silver;
+    border-radius: 2px;
+    color: #eee;
+}
+.navbar-brand > img {
+    margin: -15px; 
+    height: 70px;
+}
+nav {
+    height: 70px;
+    background-color: orange;
+}
+.nav-item > a {
+    height: 70px;
+}
+.nav-item > a.active {
+    color: #754C78;
+    background-color: lightsalmon;
+}
+.nav-item > a.navbar-brand,
+.nav-item > a.navbar-brand:focus,
+.nav-item > a:hover {
+    background-color: darkorange;
+    color: #754C78;
+}
+.nav-item > a.navbar-brand  {
+    padding-top: 9px;
+}
+.nav-item > a  {
+    color: #754C78;
+    padding-top: 11px;
+}
+nav a {
+    color: #754C78;   
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+ul.navbar-nav {
+    font-weight: bold;
+}
