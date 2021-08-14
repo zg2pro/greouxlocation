@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+    <head>
+        <title>Agenda d'occupation !</title>
+    </head>
+    <body>
+<br /><br /><br />
+<form name="chercher" method="post" action="calendar.html">
+		mois :
+		<select name="mois">
+			<option value="1" selected>Janvier</option>
+			<option value="2">Fevrier</option>
+			<option value="3">Mars</option>
+			<option value="4">Avril</option>
+			<option value="5">Mai</option>
+			<option value="6">Juin</option>
+			<option value="7">Juillet</option>
+			<option value="8">Aout</option>
+			<option value="9">Septembre</option>
+			<option value="10">Octobre</option>
+			<option value="11">Novembre</option>
+			<option value="12">Decembre</option>
+		</select>
+		annee :
+		<select name="annee">
+			<option value="2007" selected>2007</option>
+			<option value="2008">2008</option>
+			<option value="2009">2009</option>
+		</select>
+		<input type="submit" value="Consulter" />
+</form>
+
+ <?php
+
+$periode = $annee;
+//$mois = $_POST['mois'];
+$periode .= "-";
+$periode .= $mois;
+echo "\n \n";
+
+include 'calendrier.inc.php';
+showCalendar($periode);
+
+?>
+
+    </body>
+</html>

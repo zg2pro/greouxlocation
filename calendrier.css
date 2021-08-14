@@ -1,0 +1,39 @@
+/* + -----------------------------------------------------
+	Styles appliqués au Calendrier
++ ----------------------------------------------------- */
+
+#calendrier li{
+	list-style: none;	
+}
+
+#libelle {
+	width: 210px;
+	margin: 0 auto;
+	padding: 0;
+}
+.ligne {
+	width: 210px;
+	margin: 0 auto;
+	padding: 0;
+} 
+#libelle li {
+	float : left;
+	width : 30px; 
+}
+.ligne li {
+	color: #000;
+	float : left; 
+	width : 30px; 
+}
+
+.ligne li a:hover{
+	list-style: none;
+	text-decoration: none;
+}
+
+li.itemCurrentItem {
+	/* A vous de configurer l'apparence de la date du jour */
+}
+li.itemSelectedItem {
+	/* A vous de configurer l'apparence du jour sélectionné */
+}		
